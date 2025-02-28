@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 
-const ITEMS_PER_PAGE = 2;
+const ITEMS_PER_PAGE = 4;
 
 const ProjectPage = () => {
   const { translations, language } = useContext(LanguageContext);
