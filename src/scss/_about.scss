@@ -1,27 +1,21 @@
-.about {
-    margin-top: 2rem;
-}
+// .about {
+//     margin-top: 1rem;
+// }
 
 
 .about-container {
     display: grid;
     grid-template-columns: 1fr ;
-    margin-top: 2rem;
+    // margin-top: 1rem;
     overflow: hidden;
     grid-template-areas:
     'aboutLeft'
      'aboutRight'
      'btnGroup'
     'waveYellowReverse '
-    'moreInfo '
-    'waveYellow ';
+    'moreInfo ';
 }
-.wave-yellow {
-    grid-area: waveYellow;
-}
-.wave-yellow-reverse {
-    grid-area: waveYellowReverse;
-}
+
 .btn-group {
     grid-area: btnGroup;
 }
