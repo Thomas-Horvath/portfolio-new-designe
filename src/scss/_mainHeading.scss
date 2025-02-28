@@ -1,0 +1,42 @@
+//*============================== main titles =============================== 
+
+.main-heading {
+    position: relative;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    z-index: -1;
+
+
+    h2 {
+        font-family: $font-family-chill;
+        font-size: 3rem;
+        color: $text-grey-light;
+        font-weight: 700;
+        line-height: 7rem;
+        text-transform: uppercase;
+        white-space: nowrap;
+        overflow: hidden;
+        width: auto;
+        max-width: 100%;
+        transition: .7s ease;
+    }
+
+    span {
+        font-family: $font-family-chill;
+        font-weight: 400;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        user-select: none;
+        font-size: 1.8rem;
+        text-shadow: 0px 4px 8px $btn-color-dark;
+
+        color: $main-color;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-shadow: 2px 2px 8px #111;
+    }
+
+}

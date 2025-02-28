@@ -1,0 +1,68 @@
+//*  =========================== qoute section ============================================*/
+
+.quote {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 2rem 3rem;
+    min-height: 300px;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0, 0.5)),
+        url('../assets/img/qoute_section-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    margin-top: 5rem;
+
+    .linear {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(13, 13, 13, 1) 10%, rgba(10, 10, 10, 0) 25%,
+        rgba(10, 10, 10, 0) 40%,  rgba(10, 10, 10, 0) 75%, rgba(13, 13, 13, 1) 100%);
+        
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: .6rem;
+letter-spacing: 1.7px;
+    }
+
+    p:first-child {
+        font-family: $font-family-satoshi;
+        color: $main-color;
+        letter-spacing: 2px;
+        line-height: 1.7rem;
+    }
+
+    p:last-child {
+        color: $main-color-6;
+        font-family: $font-family-poppins-bold;
+    }
+}
+
+.quote-container {
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0 0 0 1rem;
+}
+
+.grey-wave {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

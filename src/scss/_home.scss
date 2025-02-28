@@ -1,0 +1,90 @@
+.home {
+    background: $bg-linear-gradient;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+    height: 100vh;
+
+    h1 {
+        font-size: 5.5rem;
+        font-family: $font-family-gam-i;
+        font-weight: 400;
+        letter-spacing: .1rem;
+        line-height: 5rem;
+        margin: 5rem 0 1rem;
+        position: relative;
+        opacity: 0;
+        color: $main-color;
+        animation-delay: .2s;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+
+    p {
+        color: $main-color-6;
+        font-family: $font-family-chill;
+        font-size: 1.4rem;
+        margin-bottom: 0;
+        position: relative;
+        animation-delay: .2s;
+        opacity: 0;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        margin-bottom: 3rem;
+        font-family: $font-family-chill;
+        letter-spacing: .2rem;
+        // color: silver;
+        color: $main-color-6;
+        position: relative;
+        animation-delay: .2s;
+        opacity: 0;
+    }
+
+    &-btn {
+        position: relative;
+    }
+}
+
+.home-social-media {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding-right: 1rem;
+    background-color: $bg-light-darker;
+    opacity: .7;
+    z-index: 0;
+    padding: 1rem;
+    border-radius: 0 10px 10px 0;
+
+    .soc-icon {
+        opacity: .8;
+        font-size: 2rem;
+        color: $main-color;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .soc-icon:hover {
+        opacity: 1;
+        transform: rotate(12deg);
+    }
+
+}
+
+
+.wave {
+    width: 100%;
+    margin-top: -1px;
+    overflow: hidden;
+}

@@ -1,0 +1,778 @@
+{
+    "nav": {
+        "link1": "Kezdőlap",
+        "link2": "Rólam",
+        "link3": "Ismereteim",
+        "link4": "Munkáim",
+        "link5": "Blog",
+        "link6": "Kapcsolat"
+    },
+    "home": {
+        "name": "Horváth Tamás",
+        "profession1": "Full-Stack webfejlesztő",
+        "profession2": "Adatbázis specialista",
+        "subTitle": " \"Kódolj szépséget, hozz létre élményt!\"",
+        "buttonText": "Küldj üzenetet"
+    },
+    "about": {
+        "headingTitle": "Néhány szó",
+        "headingSpan": "Rólam",
+        "mainTitle": "Engedd meg, hogy néhány sorban bemutatkozzam!",
+        "firstParagraph": "<strong>Horváth Tamás</strong> vagyok, eredetileg zenész, zeneszerző, alkotó. A webfejlesztéssel 2022-ben kezdtem komolyabban foglalkozni.",
+        "secundParagraph": "Szeretek alkotni, a tanulás a hobbim. Szeretem a logikusan felépülő rendszereket. Precízen, tökéletességre törekedve ugyanakkor kreatívan megoldani a feladatokat.",
+        "thirdParagraph": "<strong>2022 tavaszán</strong> az Újratervezés program keretében lehetőséget kaptam az IT világába való betekintésre. A <strong>rendszerüzemeltető </strong>képzés során elsajátítottam a számítástechnika alapelveit, a hálózatüzemeltetés alapjait, valamint a kliens (Windows, Linux) és szerver oldali (Windows Server, Linux Server) operációs rendszerek, virtuális gépek (Hyper-V, Docker) és cloud platformok (Azure, AWS) szolgáltatásainak felépítését, használatát és üzemeltetését.",
+        "forthParagraph": "Ezt követően <strong>adatbázis specialista </strong>képzésen vettem részt, ahol haladó szinten elsajátítottam az SQL nyelvet, valamint a különböző adatbázis szoftverek (MS SQL, MySQL, MongoDB) használatát, konfigurálását és üzemeltetését. Ezen kívül elsajátítottam az adatbázisok tervezését és optimalizálását is.",
+        "fifthParagraph": "Folyamatos tanulás iránti elkötelezettségemnek köszönhetően, és mivel mindig a teljes képet szeretem látni, <strong>full-stack fejlesztő </strong>karrier felé vettem az irányt. A <strong>front-end fejlesztés</strong> haladó szintű elsajátítása mellett jelenlegi célom a back-end oldal megismerése, amellyel teljes rendszereket tudok majd megvalósítani a webfejlesztés platformján.",
+        "contactButton": "Lépjünk kapcsolatba!",
+        "cvButton": "Töltsd le az önéletrajzom!"
+    },
+    "aboutInfo": {
+        "title": "Még néhány infó rólam",
+        "firstInfoTitle": "1. A gitáros",
+        "firstInfoContent": "<p>A zene gyerekkorom óta szerves része az életemnek. Tizenhárom éves korom óta gitározom, ami egy örök szerelem.</p><p>A Kőbányai Zenei Stúdióban végeztem, mint hivatásos gitáros. Óriási megtiszteltetés volt olyan magyar zenei ikonokkal együtt zenélni, mint Póka Egon, Babos Gyula vagy Vörös István.</p><p>A következő oldalon többet is megtudhatsz zenei karrieremről: <a href='https://theguitarist.thomashorvath.hu' target='_blank'> TheGuitarist.ThomasHorvath.hu</a></p>",
+        "secundInfoTitle": "2. Az informatikus",
+        "secundInfoContent": "<p>A számítógépek világa már gyermekkoromban lenyűgözött, amikor még az MS-DOS és a Commodore 64 uralkodott.</p><p>Bár inkább a zenei irányba fordultam, a COVID-19 megjelenése radikálisan átformálta az életem. A zene háttérbe szorult viszont egy remek lehetőségel élve elkezdtem informatikát tanulni. Ez ugyanazt a lelkesedést ébresztette bennem, mint mikor a zenével kezdtem foglalkozni.</p>",
+        "thirdInfoTitle": "3. A Hobbik",
+        "thirdInfoContent": "<p>Szabadidőmben is szeretek alkotni. Szívesen barkácsolok, és megoldom a házkörül felmerülő problémákat, legyen az festés, villany vagy autószerelés.</p><p>Örömmel vetem bele magam az új dolgok elsajátításába. Szeretek kirándulni, olvasni, zenét hallgatni, gitározni valamint tanulni.</p>",
+        "forthInfoTitle": "4. A sport",
+        "forthInfoContent": "<p>Az fitness és a testépítés mindig is ámulattal töltött el. Tinédzserként lelkesen jártam az edzőterembe, bár a munka világába lépve már kevésbé tudok időt szakítani a rendszeres edzésekre. Terveim között szerepel, hogy újra elkezdjek sportolni.</p><p>Legnagyobb inspirációm Arnold Schwarzenegger.</p>",
+        "fifthInfoTitle": "5. A személyiség",
+        "fifthInfoContent": "<p>Számíthatsz rá, hogy minden helyzetben megbízhatóan és precízen végzem el a feladataimat.</p><p>Kitartó vagyok az elérni kívánt célokért, miközben könnyen alkalmazkodom az új helyzetekhez és képes vagyok hatékonyan együttműködni másokkal.</p>"
+    },
+    "quote": "\"Ne csak dolgozz, alkoss is valamit. Az igazi siker abban rejlik, ha szereted, amit csinálsz.\"",
+    "skills": {
+        "headingTitle": "Készségek",
+        "headingSpan": "Amikkel rendelkezem",
+        "frontEndTitle": "Front-End",
+        "frontEndSkills": [
+            {
+                "name": "HTML 5",
+                "icon": "htmlIcon"
+            },
+            {
+                "name": "CSS 3",
+                "icon": "cssIcon"
+            },
+            {
+                "name": "Javascript",
+                "icon": "jsIcon"
+            },
+            {
+                "name": "Sass",
+                "icon": "sassIcon"
+            },
+            {
+                "name": "React",
+                "icon": "reactIcon"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "bootstrapIcon"
+            }
+        ],
+        "backEndTitle": "Back-End",
+        "backEndSkills": [
+            {
+                "name": "Node js",
+                "icon": "nodejsIcon"
+            },
+            {
+                "name": "Python",
+                "icon": "pythonIcon"
+            },
+            {
+                "name": "Express",
+                "icon": "expressIcon"
+            },
+            {
+                "name": "Django",
+                "icon": "djangoIcon"
+            }
+        ],
+        "databaseTitle": "Adatbázisok",
+        "databaseSkills": [
+            {
+                "name": "MsSql",
+                "icon": "mssqlIcon"
+            },
+            {
+                "name": "Mysql",
+                "icon": "mysqlIcon"
+            },
+            {
+                "name": "MongoDb",
+                "icon": "mongodbIcon"
+            }
+        ],
+        "otherTitle": "Egyéb",
+        "otherSkills": [
+            {
+                "name": "Git",
+                "icon": "gitIcon"
+            },
+            {
+                "name": "Github",
+                "icon": "githubIcon"
+            },
+            {
+                "name": "Figma",
+                "icon": "figmaIcon"
+            },
+            {
+                "name": "VsCode",
+                "icon": "vscodeIcon"
+            },
+            {
+                "name": "Linux",
+                "icon": "linuxIcon"
+            },
+            {
+                "name": "Docker",
+                "icon": "docker"
+            }
+        ]
+    },
+    "projectPageContent": {
+        "headingTitle": "Portfólió",
+        "subHeading": "Eddigi munkáim",
+        "buttonsAll": "Összes",
+        "buttonFront": "Front-end",
+        "buttonBack": "Back-end",
+        "buttonApps": "Adatbázisok",
+        "buttonsAllType": "All",
+        "buttonFrontType": "Webpage",
+        "buttonBackType": "Back-end",
+        "buttonAppsType": "Data"
+    },
+    "projectCard": {
+        "buttonDetails": "Részletek"
+    },
+    "backButton": " Vissza",
+    "mainProjectPage": {
+        "headingTitle": "Portfólió",
+        "subHeading": "Néhány Projektem",
+        "buttonNext": "Tovább"
+    },
+    "mainBlogPage": {
+        "headingTitle": "Blog",
+        "subHeading": "Néhány gondolatom",
+        "blogContent1": {
+            "cardtitle": "1. Html a gyakorlatban",
+            "imageSrc": "/blog_img/HTML.svg",
+            "imageAlt": "html blog kép",
+            "description": "Kezdjük azzal, hogy mi is az a HTML nyelv....",
+            "link": "/blog/1",
+            "buttonText": "Tovább.."
+        },
+        "blogContent2": {
+            "cardtitle": "2. A CSS varázslat",
+            "imageSrc": "/blog_img/css.svg",
+            "imageAlt": "css blog kép",
+            "description": "A css a modern weboldal megjelenítésének varázslatos eszköze...",
+            "link": "/blog/2",
+            "buttonText": "Tovább.."
+        },
+        "blogContent3": {
+            "cardtitle": "3. JavaScript",
+            "imageSrc": "/blog_img/js.svg",
+            "imageAlt": "javascript blog kép",
+            "description": "Mikor azt szeretnéd, hogy weboldalad interaktívan működjön...",
+            "link": "/blog/3",
+            "buttonText": "Tovább.."
+        },
+        "blogContent4": {
+            "cardtitle": "4. Vigyázz az adataidra",
+            "imageSrc": "/blog_img/security.svg",
+            "imageAlt": "biztonság blog bejegyzés",
+            "description": "Volt már úgy, hogy azt érezted figyelnek?...",
+            "link": "/blog/4",
+            "buttonText": "Tovább.."
+        }
+    },
+    "contactPageContent": {
+        "headingTitle": "Kapcsolat",
+        "subHeading": "Kérdezz bátran",
+        "contactInfoItems": [
+            {
+                "icon": "FaPhoneSquare",
+                "title": "Telefon",
+                "subtitle": "+36 30 854 4452"
+            },
+            {
+                "icon": "FaEnvelope",
+                "title": "Email",
+                "subtitle": "thomashorvathweb@gmail.hu"
+            },
+            {
+                "icon": "FaLocationDot",
+                "title": "Cím",
+                "subtitle": "Pomáz - HU"
+            }
+        ],
+        "formLabels": {
+            "name": "név",
+            "email": "email",
+            "subject": "tárgy",
+            "message": "üzenet"
+        },
+        "statusMessage": "statusMessagePlaceholder",
+        "submitButtonText": "Küldés",
+        "successMessage": "Az üzenetet sikeresen elküldtük! ✅",
+        "failMessage": "Az üzenetet nem sikerült elküldeni! ❌"
+    },
+    "footer": {
+        "policy": "Adatkezelési irányelvek",
+        "impressum": "Impresszum",
+        "cookies": "Sütik kezelése",
+        "additionalText": "Minden jog fenntartva!"
+    },
+    "blogpage": {
+        "blog1": {
+            "title1": "1. Html a gyakorlatban",
+            "content1": [
+                "Kezdjük azzal, hogy mi is az a HTML nyelv.",
+                "A HTML (HyperText Markup Language) az egyik alapvető technológia, amely meghatározza, hogyan épülnek fel az internetes oldalak. A HTML nem egy programozási nyelv, hanem egy leíró nyelv, amely arra szolgál, hogy meghatározza a weboldalak szerkezetét és tartalmát. Az egyes elemek, mint például a címek, bekezdések, képek vagy linkek, HTML tag-ek segítségével kerülnek definiálásra.",
+                "Az 1990-es évek elején Tim Berners-Lee alkotta meg a HTML-t, hogy lehetővé tegye az információk megosztását és összekapcsolását az interneten keresztül. Azóta a HTML fejlődött és bővült, hogy támogassa a modern web igényeit, mint például a multimédiás tartalmak megjelenítését és az interaktív elemek létrehozását",
+                "A HTML alapjaihoz tartozik, hogy minden weboldal valójában egy dokumentum, amely elemekből épül fel. Ezek az elemek lehetnek szöveges blokkok, képek, linkek vagy beágyazott médiafájlok. Minden ilyen elem egy nyitó és egy záró címkével van körülvéve, amelyek meghatározzák az adott elem szerepét és megjelenését a böngészőben."
+            ],
+            "example": {
+                "title": "Például:",
+                "example1": "<h1>Címsor</h1>",
+                "example2": "<p>Ez egy bekezdés.</p>",
+                "explanetion": "A fent említett példa egy címsort és egy bekezdést definiál. A HTML azonban sokkal többről szól ennél, és számtalan egyéb elemet használhatunk a weboldalak felépítéséhez."
+            },
+            "title2": "Miért fontos a HTML?",
+            "content2": [
+                "A HTML az alapja minden weboldalnak. Minden, amit az interneten látunk, HTML segítségével van meghatározva, beleértve a szövegeket, képeket és interaktív elemeket. Az egyre inkább interaktív és vizuálisan gazdag oldalak világában a HTML továbbra is kulcsszerepet játszik, mivel ez biztosítja a weblapok alapvető szerkezetét."
+            ],
+            "title3": "HTML a modern webfejlesztésben",
+            "content3": [
+                "Ma már a HTML önmagában nem elegendő egy teljes weboldal létrehozásához. A stílusok meghatározásához CSS (Cascading Style Sheets) szükséges, míg a dinamikus működéshez JavaScript ad hozzá interaktivitást. Azonban a HTML marad az a nyelv, amely meghatározza a weboldal struktúráját, és amely nélkül nem létezhetne a modern webfejlesztés.",
+                "A HTML egyszerűsége és rugalmassága miatt továbbra is az egyik legfontosabb technológia minden webfejlesztő eszköztárában."
+            ]
+        },
+        "blog2": {
+            "title1": "2. A CSS varázslat",
+            "content1": [
+                "Kezdjük azzal, hogy mi is az a CSS.",
+                "A CSS (Cascading Style Sheets) egy stílusleíró nyelv, amely arra szolgál, hogy megformázza a HTML elemek megjelenését a weboldalakon. Míg a HTML a szerkezetet adja meg, a CSS a vizuális elemekért felelős, mint például a színek, betűtípusok, elrendezések és animációk.",
+                "A CSS különválasztja a weboldal tartalmát a megjelenésétől, így a webfejlesztők könnyedén módosíthatják a design-t anélkül, hogy megváltoztatnák a HTML szerkezetet. Ez különösen hasznos, amikor nagyobb weboldalakat kell karbantartani vagy újrafelhasználható stílusokat kell létrehozni.",
+                "A CSS szabályokból áll, amelyek különböző elemekre vonatkoznak. Egy szabály általában egy elemre (például egy bekezdésre vagy címre) hivatkozik, és meghatározza annak vizuális tulajdonságait, például a színét, méretét vagy helyzetét a weboldalon."
+            ],
+            "example": {
+                "title": "Például:",
+                "example1": "p { color: red; }",
+                "example2": "h1 { font-size: 24px; }",
+                "explanation": "Az első példa egy bekezdés színét pirosra állítja, míg a második példa a címsor méretét 24 pixelre módosítja. A CSS lehetővé teszi a weboldalak megjelenésének pontos szabályozását."
+            },
+            "title2": "Miért fontos a CSS?",
+            "content2": [
+                "A CSS az internetes oldalak megjelenésének meghatározó eszköze. Lehetővé teszi a weboldalak testreszabását, és segít abban, hogy vizuálisan vonzóbbak legyenek. A modern weboldalak többsége CSS-t használ az elrendezés és a stílus kialakítására."
+            ],
+            "title3": "CSS a modern webfejlesztésben",
+            "content3": [
+                "A CSS az egyik legfontosabb technológia a webfejlesztők számára. Számos keretrendszer és előre definiált stíluslap létezik, amelyek megkönnyítik a fejlesztők munkáját. A CSS rugalmassága lehetővé teszi, hogy bármilyen weboldal kinézetét megváltoztassuk anélkül, hogy a HTML-t módosítanánk."
+            ]
+        },
+        "blog3": {
+            "title1": "3. JavaScript",
+            "content1": [
+                "Kezdjük azzal, hogy mi is az a JavaScript.",
+                "A JavaScript egy programozási nyelv, amely dinamikus interaktivitást biztosít a weboldalaknak. Míg a HTML a szerkezetet, a CSS a megjelenést határozza meg, addig a JavaScript lehetővé teszi a weboldalak számára, hogy reagáljanak a felhasználói interakciókra, mint például kattintásokra, űrlapbeküldésekre vagy animációkra.",
+                "A JavaScript a böngészőben fut, és közvetlenül kommunikál a weboldal HTML és CSS elemeivel. Ezáltal lehetővé teszi például a tartalom valós idejű frissítését anélkül, hogy újratöltenénk az oldalt.",
+                "A modern webfejlesztésben a JavaScript kulcsszerepet játszik. Segítségével komplex webalkalmazásokat, játékokat és interaktív eszközöket lehet létrehozni, amelyek növelik a felhasználói élményt."
+            ],
+            "example": {
+                "title": "Például:",
+                "example1": "document.getElementById( 'myButton' ).addEventListener( 'click', function() { alert('Hello World!'); });",
+                "explanation": "A fenti példa egy gombhoz egy kattintás eseményt ad hozzá, amely megjeleníti a 'Hello World!' üzenetet. A JavaScript használatával egyszerűen lehet interaktív funkciókat hozzáadni a weboldalakhoz."
+            },
+            "title2": "Miért fontos a JavaScript?",
+            "content2": [
+                "A JavaScript az egyik legnépszerűbb nyelv a webfejlesztésben. Lehetővé teszi a dinamikus és interaktív weboldalak létrehozását, amelyek jobban alkalmazkodnak a felhasználói igényekhez. A legtöbb modern webalkalmazás JavaScript-en alapul."
+            ],
+            "title3": "JavaScript a modern webfejlesztésben",
+            "content3": [
+                "Ma már szinte elképzelhetetlen egy modern weboldal JavaScript nélkül. Számos keretrendszer és könyvtár, mint például a React vagy a Vue.js, tovább bővítik a JavaScript lehetőségeit, és megkönnyítik az összetett feladatok megvalósítását."
+            ]
+        },
+        "blog4": {
+            "title1": "4. Vigyázz az adataidra",
+            "content1": [
+                "Miért fontos az adatvédelem a digitális világban?",
+                "A digitális korban az adatvédelem egyre fontosabbá válik. Az internetes tevékenységeink során rengeteg adatot osztunk meg, amelyek potenciálisan érzékenyek lehetnek. Ezek az adatok a személyes információktól kezdve a böngészési szokásokon át egészen a pénzügyi adatokig terjedhetnek.",
+                "A kiberbűnözés egyre nagyobb fenyegetést jelent a felhasználókra. A hackerek folyamatosan új módszereket találnak ki arra, hogy ellopják a személyes adatokat, és azokat felhasználják csalásokra vagy az identitásunk megszerzésére.",
+                "Ezért fontos, hogy gondosan kezeljük adatainkat az interneten. Biztosítsuk, hogy erős jelszavakat használjunk, és kerüljük a gyanús linkeket vagy ismeretlen weboldalakat. Az adatvédelem tudatosításával minimalizálhatjuk a kockázatokat, és megvédhetjük magunkat a digitális világ veszélyeitől."
+            ],
+            "example": {
+                "title": "Tippek az adatvédelemhez:",
+                "example1": "- Használj erős és egyedi jelszavakat minden fiókodhoz.",
+                "example2": "- Ne kattints gyanús linkekre vagy email mellékletekre.",
+                "explanation": "Az adatvédelem érdekében fontos, hogy biztonságosan kezeljük online fiókjainkat és adatainkat. A jelszavak és az óvatosság kulcsfontosságú a kiberbűnözés elleni védekezésben."
+            },
+            "title2": "Miért fontos az adatvédelem?",
+            "content2": [
+                "Az adatvédelem minden felhasználót érint, és elengedhetetlen a személyes információk biztonságának megőrzése érdekében. Az internetes világban egyre több támadás történik, ezért fontos, hogy tudatosan védjük meg adatainkat."
+            ],
+            "title3": "Adatvédelem a modern világban",
+            "content3": [
+                "A digitális világ fejlődésével egyre nagyobb hangsúlyt kell fektetnünk az adatvédelemre. Az online tevékenységeink során folyamatosan veszélyben vannak személyes adataink, ezért fontos, hogy megfelelő védelmi intézkedéseket hozzunk, mint például a kétfaktoros hitelesítés használata és a megbízható vírusirtó programok telepítése."
+            ]
+        }
+    },
+    "policy": {
+        "main_title": "Adatkezelési Irányelvek",
+        "wrapper_content": [
+            {
+                "title": "1. Adatvédelem és Biztonság",
+                "content": "Az ügyféladataidat szigorúan bizalmasnak tekintjük, és minden létező intézkedést megteszünk azok védelme érdekében. Kizárólag azok a munkatársak férhetnek hozzá az adatokhoz, akiknek erre kifejezett felhatalmazásuk van, és akiknek szükségük van rá a munkájuk során. Rendszeres adatbiztonsági ellenőrzéseket végzünk annak érdekében, hogy megelőzzük az illetéktelen hozzáféréseket és a biztonsági incidenseket."
+            },
+            {
+                "title": "2. Adatgyűjtés és Felhasználás",
+                "content": "Az ügyféladatokat kizárólag tisztességes és törvényes célokra gyűjtjük és használjuk fel. Az adatokat kizárólag az ügyfelekkel való kapcsolat fenntartásához, valamint a szolgáltatásaink fejlesztéséhez és javításához használjuk fel. Nem értékesítjük, vagy adjuk ki az ügyféladatainkat harmadik felek számára engedély nélkül."
+            },
+            {
+                "title": "3. Felhasználói Jogok",
+                "content": "Ügyfeleinknek joguk van hozzáférni az általuk megadott személyes adatokhoz, valamint kérhetik azok helyesbítését vagy törlését, amennyiben szükséges. Amennyiben ügyfeleink szeretnék kijelenteni az adatkezeléssel kapcsolatos preferenciáikat, kérjük, hogy vegyék fel velünk a kapcsolatot az alábbi elérhetőségeken."
+            },
+            {
+                "title": "4. Adatvédelmi Tájékoztatás és Felülvizsgálat",
+                "content": "Rendszeresen frissítjük az adatvédelmi irányelveinket annak érdekében, hogy megfeleljünk a jogi követelményeknek és az ügyfelek elvárásainak. Az esetleges változásokról értesítést küldünk ügyfeleinknek, és minden új adatvédelmi intézkedést előzetesen ellenőrzünk és jóváhagyunk."
+            }
+        ]
+    },
+    "impressum": {
+        "main_title": "Impresszum",
+        "page_owner": {
+            "title": "Oldalt üzemeltető adatai",
+            "name": "Név:",
+            "address": "Cím:",
+            "phone": "Telefonszám:",
+            "email": "E-mail cím:"
+        },
+        "hosting_provider": {
+            "title": "Webtárhely szolgáltató adatai",
+            "company_name": "Cégnév:",
+            "company_address": "Székhely: ",
+            "branch_office": "Fióktelep:",
+            "website": "Webcím:",
+            "contact_page": "Elérhetőség:"
+        }
+    },
+    "cookiesSection": {
+        "title": "Sütik kezelése",
+        "content": {
+            "introduction": {
+                "text": "A portfólió weboldalamra való belépéskor a weboldal automatikusan elmenthet információkat az Ön számítógépéről, illetve a böngészésre használt eszközéről (tablet, okostelefon). Erre a célre ún. számítógépes „sütiket” (cookie) használ."
+            },
+            "whatIsCookie": {
+                "title": "Mi az a süti?",
+                "text": "A cookie egy rövid szöveg, amelyet a felkeresett webhely küld el böngészőjébe. Segítségével a webhely megjegyzi a látogatásával kapcsolatos információkat, például az Ön által használt nyelvet és egyéb beállításokat. Ezáltal gördülékenyebbé válhat a következő látogatás, és könnyebb lesz a webhely használata. A cookie-k fontos szerepet játszanak. Nélkülük az internet használata sokkal nehézkesebb lenne."
+            },
+            "cookiesPurpose": {
+                "title": "Milyen sütiket és milyen célból használunk a weboldalon?",
+                "types": [
+                    {
+                        "type": "ÁLLANDÓ VAGY IDEIGLENES SÜTIK",
+                        "text": "Weboldalam un. „ideiglenes sütiket” (session/munkamenet sütik) és „állandó sütiket” is használ. Az ideiglenes sütik addig maradnak a számítógépén, amíg Ön el nem hagyja a weboldalamat. Az állandó sütik hosszabb ideig (a böngésző beállításától függően), vagy egészen addig maradnak az eszközén, ameddig Ön azokat manuálisan nem törli."
+                    },
+                    {
+                        "type": "MUNKAMENET (SESSION) SÜTIK",
+                        "text": "Ideiglenes süti, csak az aktuális látogatás ideje alatt, a munkamenet végével, valamint a böngésző bezárásával automatikusan törlődnek számítógépéről. Ezek nélkülözhetetlenek a weboldalamon történő navigáláshoz és a weboldal üzemszerű működéséhez. A munkamenet sütik semmilyen esetben sem gyűjtenek Önről olyan információkat, amellyel Önt azonosítani lehetne."
+                    },
+                    {
+                        "type": "TELJESÍTMÉNYT BIZTOSÍTÓ SÜTIK (ANALITIKA)",
+                        "text": "A Google Analytics sütik segítségével információt gyűjtök látogatóim viselkedéséről és jellemzőiről. Ez segít számomra, hogy a későbbiekben még átláthatóbbá, könnyebben használhatóvá tegyen a weboldalamat. E sütik nem képesek Önt személy szerint beazonosítani, például nem rögzítem az Ön nevét és email címét; az adatokat összesítve és névtelenül tárolják. Az IP címet is csak részben rögzítik.",
+                        "link_title": "További információ:",
+                        "link": "Ezen az oldalon."
+                    },
+                    {
+                        "type": "HASZNÁLATOT ELŐSEGÍTŐ, UN. FUNKCIONÁLIS SÜTIK",
+                        "text": "Segítségükkel megjegyezhetem honlapomon kapcsolatos döntéseit (pl.: űrlapokon megadott adatokat, stb). Ezek a sütik kizárólag a meglátogatott weboldalon követik nyomon az Ön tevékenységét, más honlapokon nem. Ezen sütik tárolhatnak személyes azonosító adatokat, amelyeket Ön megadott weboldalamon, mint az Ön e-mail címe."
+                    },
+                    {
+                        "type": "HARMADIK FÉLTŐL SZÁRMAZÓ SÜTIK",
+                        "text": "Előfordulhat, hogy harmadik féltől származó külső webes szolgáltatásokat veszek igénybe weboldalamon. Ebben az esetben a sütik tárolását nem én felügyelem, nincs ráhatásom arra, hogy ezek a külső szolgáltatók milyen információkat gyűjtenek.",
+                        "link_title": "A Google által használt cookie-k típusáról",
+                        "link": "ITT",
+                        "link_end": "tájékozódhat."
+                    }
+                ]
+            },
+            "cookieManagement": {
+                "title": "A sütik kezelése, ellenőrzése és kikapcsolása",
+                "consentWithdrawal": {
+                    "title": "Hogyan lehet visszavonni a hozzájárulást?",
+                    "text": "A hozzájárulás érvényessége időnként lejár. Azonban, ha szeretné visszavonni hozzájárulását, a böngészője cookie beállításai között bármikor megteheti."
+                },
+                "browserSettings": {
+                    "title": "Böngésző beállítása",
+                    "text": "Ezek a cookie-k nem tárolnak személyes adatokat, például az Ön nevét, címét vagy fizetési adatait. Ha mégis szeretné letiltani, blokkolni vagy törölni a cookie-kat honlapomról, böngészője segítségével megteheti. Fontosabb böngészők cookie beállításait itt érheti el:"
+                }
+            },
+            "googleAnalyticsDisable": {
+                "title": "ANONIM GOOGLE ANALYTICS SÜTIK KIKAPCSOLÁSA",
+                "text": "Ahhoz, hogy megakadályozza, hogy a Google Analytics sütik Önre vonatkozó információkat gyűjtsenek, telepítenie kell egy kiegészítőt (Google Analytics plug-in) a böngészőjébe.",
+                "additionalInfo": {
+                    "description": "Erről további információkat az alábbi linkeken talál:",
+                    "links": {
+                        "text1": "A sütik letilthatók a Google szolgáltatásaiban is, a Google reklámok letiltására vonatkozó oldalán",
+                        "text2": "A felhasználó gépén tárolt Google információkat az alábbi oldalon lehet kezelni",
+                        "text3": "„Google adatvédelem és biztonság” témában tovább olvashat itt"
+                    }
+                }
+            }
+        }
+    },
+    "projects": [
+        {
+            "id": 1,
+            "type": "Weboldal",
+            "title": "GitArt Próbaterem és Stúdió weboldala",
+            "cardDescription": "A Gitart Próbaterem és stúdió weboldala.",
+            "popupDescription": [
+                "A projekt a GitArt próbaterem és stúdió weboldalát valósítja meg.",
+                "Az oldal funkciónálisan megvalósítja a ternmek online foglalását.",
+                "Az oldalon megvalósul a felhazsnálók regisztrációja, autentikációja és a belépett felhasználó teremfogalás kezelése.",
+                "Teszt felhasználó email címe: 'testuser@gmail.com' , jelszava: 'Password'  "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "SCSS",
+                "React",
+                "JavaScript"
+            ],
+            "imageSrc": "/project_img/project_1/project_1_card.webp",
+            "gallery": [
+                "/project_img/project_1/1.webp",
+                "/project_img/project_1/2.webp",
+                "/project_img/project_1/3.webp",
+                "/project_img/project_1/4.webp",
+                "/project_img/project_1/5.webp",
+                "/project_img/project_1/6.webp"
+            ],
+            "imageAlt": " GitArt Próbaterem és Stúdió wboldala",
+            "githubLink": "https://github.com/Thomas-Horvath/GITART-frontend",
+            "githubPagesLink": "https://thomas-horvath.github.io/GITART-frontend/",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 2,
+            "type": "Weboldal",
+            "title": "Electric Guitar Shop E-commerce Webshop",
+            "cardDescription": "Hangszerbolt webshop kliens oldlai front-end ",
+            "popupDescription": [
+                "A projekt az EGS hangszerbolt és webshop kliens oldali front-end megvalósítása.",
+                "Az oldal megvalósítja a termékek megjelenítését, rendelések leadását valamint a kosár kezelését.",
+                "Az oldalon megvalósul a felhazsnálók regisztrációja, autentikációja és a belépett felhasználók profiljának kezelése.",
+                "Teszt felhasználó felhasználóneve: 'testuser' , jelszava: 'Password'  "
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "React",
+                "JavaScript"
+            ],
+            "imageSrc": "/project_img/project_2/project_2_card.webp",
+            "gallery": [
+                "/project_img/project_2/1.webp",
+                "/project_img/project_2/2.webp",
+                "/project_img/project_2/3.webp",
+                "/project_img/project_2/4.webp",
+                "/project_img/project_2/5.webp",
+                "/project_img/project_2/6.webp"
+            ],
+            "imageAlt": "Egs webshop kliens frontend ",
+            "githubLink": "https://github.com/Thomas-Horvath/EGS_shop_client",
+            "githubPagesLink": "https://thomas-horvath.github.io/EGS_shop_client/",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 3,
+            "type": "Back-end",
+            "title": "Electric Guitar Shop - Webshop szerver",
+            "cardDescription": "Hangszerbolt webshop szerver oldal",
+            "popupDescription": [
+                "Az EGS hangszerbolt kliens és admin felületéhez tartozó szerver oldali megvalósítás.",
+                "Az oldal egy NodeJs Express szerverrel kezeli a bejövő kéréseket.",
+                "Az adatbázis egy MongoDb szerveren fut."
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "NodeJs",
+                "Express",
+                "MongoDb"
+            ],
+            "imageSrc": "/project_img/project_3/project_3_card.webp",
+            "gallery": [
+                "/project_img/project_3/1.webp",
+                "/project_img/project_3/2.webp",
+                "/project_img/project_3/3.webp"
+            ],
+            "imageAlt": "Electric Guitar Shop - Webshop szerver",
+            "githubLink": "https://github.com/Thomas-Horvath/EGS-backend",
+            "githubPagesLink": "https://egs.thomasapi.eu",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 4,
+            "type": "Weboldal",
+            "title": "Electric Guitar Shop Webshop - Admin felület",
+            "cardDescription": "Hangszerbolt webshop admin felülete",
+            "popupDescription": [
+                "Az Electric Guitar Shop - Webshop adminisztrációs felülete, ahol az admin jogokkal rendelkező felhasználók belépés után kezelheteik a hangszerbolt adatait.",
+                "Az általános forgalmi adatok megjelenítése mellet az adminok kezelhetik a termékek részletes adatit, frissíthetik azokat valamint létrehozhatnak és törölhetnek termékeket.",
+                "Kezelhetik a vásárlók és adminok adatait valamint az új adminisztráztotokat is létrehozhatnak.",
+                "Kezelhetik a vásárlók aktívitását. Aki inaktívra van álítva nem tud belépni a webshop profiljába.",
+                "Megtekinthetik a rendeléseket valamint módiosíthatják és törölhetik is azokat.",
+                "A hírlevél felíratkozásokat is ezen a felületen tudják kezelni az adminok.",
+                "Teszt adminisztrátor felhasználóneve:  'admin', jelszava:  'Password'."
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "SCSS - sass",
+                "React",
+                "JavaScript"
+            ],
+            "imageSrc": "/project_img/project_4/project_4_card.webp",
+            "gallery": [
+                "/project_img/project_4/1.webp",
+                "/project_img/project_4/2.webp",
+                "/project_img/project_4/3.webp",
+                "/project_img/project_4/4.webp",
+                "/project_img/project_4/5.webp",
+                "/project_img/project_4/6.webp"
+            ],
+            "imageAlt": "EGS webshop admin felülete",
+            "githubLink": "https://github.com/Thomas-Horvath/EGS_Admin_Panel",
+            "githubPagesLink": "https://thomas-horvath.github.io/EGS_Admin_Panel/",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 5,
+            "type": "Adatbázis",
+            "title": "MS Sql - EGS webshop adatbázisa",
+            "cardDescription": "Ez Electric Guitar Shop - webshop MsSql szerver adatbázisa",
+            "popupDescription": [
+                "Microsoft SQL Server 2022 adatbázis szerveren, a harmadik normál formáig tervezett relációs adatbázis.",
+                "Funkcionalitásban a felhasználók, termékek és rendelések adatainak tárolása volt a cél.",
+                "A projektben a táblákon és szótár táblákon túl, saját függvények, nézetek és triggerek is megvalósításra kerültek.",
+                " Valamint egy teljes projectdokumentáció is készült emit a lenti gombra kattintva le is lehet tölteni."
+            ],
+            "technologies": [
+                "MS SQL Server",
+                "SQL"
+            ],
+            "imageSrc": "/project_img/project_5/project_5_card.webp",
+            "gallery": [
+                "/project_img/project_5/1.webp",
+                "/project_img/project_5/2.webp"
+            ],
+            "imageAlt": "Ms Sql szerver",
+            "downloadDocs_title": "Töltsd le a dokumentációt",
+            "docsHref": "/project_docs/ElectricGuitarShop_Adatbázis_dokumentáció.pdf",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 6,
+            "type": "Weboldal",
+            "title": "Thomas Coffee Corner - kávézó weboldala",
+            "cardDescription": "Thomas Coffee Corner - kávézó weboldala",
+            "popupDescription": [
+                "Egy fiktív kávézó frontend megvalósítása html, css és javascript segítségével.",
+                " A projektben megvalósult a temrmékek megjelenítése és szűrése valamint egy termék keresési funkció is."
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React"
+            ],
+            "imageSrc": "/project_img/project_6/project_6_card.webp",
+            "gallery": [
+                "/project_img/project_6/1.webp",
+                "/project_img/project_6/2.webp",
+                "/project_img/project_6/3.webp",
+                "/project_img/project_6/4.webp",
+                "/project_img/project_6/5.webp",
+                "/project_img/project_6/6.webp"
+            ],
+            "imageAlt": "Thomas Coffee Corner kávézó weboldala",
+            "githubLink": "https://github.com/Thomas-Horvath/Thomas_Coffee_Corner_WebSite",
+            "githubPagesLink": "https://thomas-horvath.github.io/Thomas_Coffee_Corner_WebSite/",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 7,
+            "type": "Back-end",
+            "title": "GitArt Próbaterem és Stúdió szerver" ,
+            "cardDescription": "A Gitart Próbaterem és stúdió szerver oldali megvalósítása.",
+            "popupDescription": [
+                "A projekt a GitArt próbaterem és stúdió weboldal szerver oldali része.",
+                "A project egy Nodejs Express szerverrel valósul meg.",
+                "A felhasználók regisztrációját, bejelentkezését és autentikócióját valamint a próbatermek online foglalásának kezelését valósítja meg.",
+                "Az adatbázis egy MongoDb szerveren fut."
+            ],
+            "technologies": [
+                "Nodejs",
+                "Express",
+                "JavaScript",
+                "MongodDb",
+                "JSON"
+            ],
+            "imageSrc": "/project_img/project_7/project_7_card.webp",
+            "gallery": [
+                "/project_img/project_7/1.webp",
+                "/project_img/project_7/2.webp",
+                "/project_img/project_7/3.webp"
+            ],
+            "imageAlt": "NodeJs Express szerver",
+            "githubLink": "https://github.com/Thomas-Horvath/GITART-server",
+            "githubPagesLink": "https://gitart.thomasapi.eu/",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 8,
+            "type": "Weboldal",
+            "title": "Csibi Róbert Bőrdíszműves weboldala",
+            "cardDescription": "Egy bőrdíszműves portfólió weboldala",
+            "popupDescription": [
+                "Csibi Róber bőrdíszműves weboldala. Az álltalános információk mellett képgaléria is megvalósításra került.",
+                "A képek egy modal ablakban nagyítva is megtekinthetőek."
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "imageSrc": "/project_img/project_8/project_8_card.webp",
+            "gallery": [
+                "/project_img/project_8/1.webp",
+                "/project_img/project_8/2.webp",
+                "/project_img/project_8/3.webp",
+                "/project_img/project_8/4.webp",
+                "/project_img/project_8/5.webp",
+                "/project_img/project_8/6.webp"
+            ],
+            "imageAlt": "Csibi Róbert Bőrdíszműves weboldala",
+            "githubLink": "https://github.com/Thomas-Horvath/Leather_Portfolio-site",
+            "githubPagesLink": "https://thomas-horvath.github.io/Leather_Portfolio-site/index.html",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 9,
+            "type": "Adatbázis",
+            "title": "MongoDb - EGS webshop adatbázisa",
+            "cardDescription": "Ez Electric Guitar Shop - webshop MongoDb szerver adatbázisa",
+            "popupDescription": [
+                "Ebben az adatbázisban a termékek, rendelések valamint a felhasználók kezelését valósítottam meg."
+            ],
+            "technologies": [
+                "MongoDb",
+                "JSON",
+                "BSON"
+            ],
+            "imageSrc": "/project_img/project_9/project_9_card.webp",
+            "gallery": [
+                "/project_img/project_9/1.webp",
+                "/project_img/project_9/2.webp"
+               
+            ],
+            "imageAlt": "MongoDb adatbázis",
+            "downloadDocs_title": "Töltsd le a dokumentációt",
+            "docsHref": "/project_docs/ElectricGuitarShop_Adatbázis_dokumentáció.pdf",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 10,
+            "type": "Weboldal",
+            "title": "Számológép applikáció",
+            "cardDescription": "Egy számológép applikáció megvalósítása",
+            "popupDescription": [
+                "Számológép applikáció html, css és javascript megvalósítása.",
+                "A projektben egy régi és egy modern stílusú user interfacen is használható a szolgáltatás."
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "imageSrc": "/project_img/project_10/project_10_card.webp",
+            "gallery": [
+                "/project_img/project_10/1.webp",
+                "/project_img/project_10/2.webp"
+            ],
+            "imageAlt": "Számológép",
+            "githubLink": "https://github.com/Thomas-Horvath/CalculatorApp",
+            "githubPagesLink": "https://thomas-horvath.github.io/CalculatorApp/",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        },
+        {
+            "id": 11,
+            "type": "Adatbázis",
+            "title": "MongoDb - Gitart Próbaterem és Stúdio adatbázisa",
+            "cardDescription": "A Gitart Próbaterem és stúdió adatbázisa",
+            "popupDescription": [
+                "A projekt a GitArt próbaterem és stúdió weboldal szerver oldali adatbázisa.",
+                "Tároljuk afelhasználók adatait valamint a próbaterem foglalások adatait",
+                "Az onlán foglalási rednszer mellett az egyes próbatermek adatit és a stúdió adatait egy egy kollekcióban tároljuk."
+            ],
+            "technologies": [
+                "MongoDb",
+                "JSON",
+                "BSON"
+            ],
+            "imageSrc": "/project_img/project_11/project_11_card.webp",
+            "gallery": [
+                "/project_img/project_11/1.webp",
+                "/project_img/project_11/2.webp"
+            ],
+            "imageAlt": "Példa projekt 9 kép",
+            "downloadDocs_title": "Töltsd le a dokumentációt",
+            "docsHref": "/project_docs/ElectricGuitarShop_Adatbázis_dokumentáció.pdf",
+            "buttonContent": "Részletek",
+            "popupDescriptionTitle": "A projekt leírása:",
+            "popupTehnologies": "A felhasznált technikák:",
+            "popupProjectType": "A projekt típusa:"
+        }
+       
+          
+          
+          
+          
+    ]
+}

@@ -1,0 +1,88 @@
+.about {
+    margin-top: 2rem;
+}
+
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin-top: 2rem;
+    overflow: hidden;
+    grid-template-areas:
+    'aboutLeft'
+     'aboutRight'
+     'btnGroup'
+    'waveYellowReverse '
+    'moreInfo '
+    'waveYellow ';
+}
+.wave-yellow {
+    grid-area: waveYellow;
+}
+.wave-yellow-reverse {
+    grid-area: waveYellowReverse;
+}
+.btn-group {
+    grid-area: btnGroup;
+}
+.more-info-container {
+    grid-area: moreInfo;
+}
+
+.about-left {
+    grid-area: aboutLeft;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+
+
+.about-left img {
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    background: #222;
+    
+    border: $border;
+    border-radius: 2px;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+
+
+
+.about-right {
+    grid-area: aboutRight;
+    overflow: hidden;
+    .about-section {
+        padding: 1rem;
+    }
+    strong {
+        color: $main-color;
+        font-size: 1.1rem;
+    }
+    h3 {
+        font-size:1.1rem ;
+        color: $main-color;
+     
+    }
+
+    p {
+        margin: 1.5rem 0;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+        letter-spacing: 1px;
+    }
+}
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 6rem 0 3rem;
+    .about-btn, .btn-secund {
+        width: 80%;
+    }
+}
