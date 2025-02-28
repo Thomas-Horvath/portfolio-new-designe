@@ -65,7 +65,7 @@ html {
 /* general style */
 body {
   font-family: "Chill";
-  background-color: rgb(13, 13, 13);
+  background-color: rgb(14, 14, 14);
   color: #a3a3a3;
   min-width: 350px;
   overflow-x: hidden;
@@ -298,7 +298,7 @@ a,
   height: 100%;
 }
 .icons svg {
-  color: #ffffff;
+  color: rgba(218, 197, 167, 0.6);
   font-size: 2rem;
   transition: color 0.3s ease;
 }
@@ -323,7 +323,7 @@ a,
   right: 0;
   width: 100%;
   height: auto;
-  background-color: rgb(13, 13, 13);
+  background-color: rgb(14, 14, 14);
   padding: 1rem 2rem 2rem;
   overflow-y: auto;
   z-index: 1;
@@ -345,6 +345,7 @@ a,
   transition: background-color 0.3s ease;
   border: none;
   border-radius: 3px;
+  background-color: rgba(218, 197, 167, 0.6);
 }
 
 .hamburger-btn-close:hover {
@@ -415,7 +416,7 @@ a,
 }
 
 .home {
-  background: linear-gradient(rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.9), rgb(12, 12, 12) 80%), url(../assets/img/BG-gray.webp) center/cover;
+  background: linear-gradient(rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.9), rgb(14, 14, 14) 80%), url(../assets/img/BG-gray.webp) center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -665,7 +666,7 @@ a,
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgb(13, 13, 13) 10%, rgba(10, 10, 10, 0) 25%, rgba(10, 10, 10, 0) 40%, rgba(10, 10, 10, 0) 75%, rgb(13, 13, 13) 100%);
+  background: linear-gradient(0deg, rgb(14, 14, 14) 10%, rgba(10, 10, 10, 0) 25%, rgba(10, 10, 10, 0) 40%, rgba(10, 10, 10, 0) 75%, rgb(14, 14, 14) 100%);
 }
 .quote p {
   font-size: 1.5rem;
@@ -772,7 +773,7 @@ a,
 }
 
 .portfolio-wrapper {
-  background-image: linear-gradient(0deg, rgb(13, 13, 13) 10%, rgba(10, 10, 10, 0.5) 25%, rgba(10, 10, 10, 0.4) 47%, rgba(10, 10, 10, 0.5) 75%, rgb(13, 13, 13) 100%), url("../assets/img/portfolio-bg.webp");
+  background-image: linear-gradient(0deg, rgb(14, 14, 14) 10%, rgba(10, 10, 10, 0.6) 25%, rgba(10, 10, 10, 0.3) 47%, rgba(10, 10, 10, 0.6) 75%, rgb(14, 14, 14) 100%), url("../assets/img/portfolio-bg.webp");
   background-size: cover;
   background-position: center;
   box-shadow: var(--box-shadow-light);
@@ -833,7 +834,7 @@ a,
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 20px rgba(212, 212, 212, 0.2);
+  background: linear-gradient(#dac5a7, #dac5a7);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease;
   max-width: 100%;
   border: 1px solid rgba(218, 197, 167, 0.15);
@@ -904,7 +905,7 @@ a,
 .project-card-button {
   padding: 0.5rem 1rem;
   background-color: #dac5a7;
-  color: rgb(13, 13, 13);
+  color: rgb(14, 14, 14);
   text-transform: uppercase;
   font-weight: 600;
   text-decoration: none;
@@ -1068,7 +1069,7 @@ a,
 .project-image-container {
   width: 100%;
   margin-bottom: 20px;
-  background-color: rgb(13, 13, 13);
+  background-color: rgb(14, 14, 14);
   display: flex;
   align-items: center;
 }
@@ -1418,7 +1419,7 @@ a,
   top: 25px;
   left: 5px;
   transform: translateY(-50%);
-  background-color: rgb(13, 13, 13);
+  background-color: rgb(14, 14, 14);
   padding-inline: 5px;
   text-transform: capitalize;
   transition: all 0.3s ease;

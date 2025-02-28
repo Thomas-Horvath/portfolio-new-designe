@@ -42,7 +42,7 @@
     height: 100%;
 
     svg {
-        color: $white-100;
+        color: $main-color-6;
         font-size: 2rem;
         transition: color .3s ease;
     }
@@ -103,6 +103,7 @@
     transition:  background-color .3s ease;
     border: none;
     border-radius: 3px;
+    background-color: $main-color-6;
 
 }
 
