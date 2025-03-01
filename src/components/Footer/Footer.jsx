@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             <div className="copyright-container">
-                <p className="text">Copyright &copy; 2024</p>
+                <p className="text">Copyright &copy; 2025</p>
                 <p> {translations.footer.additionalText}</p>
             </div>
         </footer>

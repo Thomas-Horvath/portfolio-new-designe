@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const useIntersectionObserver = (options) => {
   const [entries, setEntries] = useState([]);
+  const location = useLocation(); // Figyeljük az útvonal változását
+  
 
   useEffect(() => {
     const observer = new IntersectionObserver((entryList) => {
@@ -14,7 +17,7 @@ const useIntersectionObserver = (options) => {
     return () => {
       elements.forEach(el => observer.unobserve(el));
     };
-  }, [options]);
+  }, [ location.pathname]);
 
   return entries;
 };

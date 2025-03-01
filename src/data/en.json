@@ -9,7 +9,7 @@
     },
     "home": {
         "name": "Thomas Horvath",
-        "profession1": "Full-Stack web developer,",
+        "profession1": "Full-Stack web developer",
         "profession2": "Database specialist",
         "subTitle": "Code beauty, create an experience!",
         "buttonText": "Contact me!"
@@ -29,7 +29,7 @@
     "aboutInfo": {
         "title": "A Few More Things About Me",
         "firstInfoTitle": "1. The Guitarist",
-        "firstInfoContent": "<p>Music has been an integral part of my life since childhood. I have been playing the guitar since I was thirteen, and it remains a lifelong passion.</p><p>I graduated from the Kőbánya Music Studio as a professional guitarist. It was an immense honor to play alongside renowned Hungarian music icons such as Egon Póka, Gyula Babos, and István Vörös.</p><p>On the following page, you can learn more about my musical career: <a href='https://theguitarist.thomashorvath.hu' target='_blank'> TheGuitarist.ThomasHorvath.hu</a></p>",
+        "firstInfoContent": "<p>Music has been an integral part of my life since childhood. I have been playing the guitar since I was thirteen, and it remains a lifelong passion.</p><p>I graduated from the Kőbánya Music Studio as a professional guitarist. It was an immense honor to play alongside renowned Hungarian music icons such as Egon Póka, Gyula Babos, and István Vörös.</p><p>On the following page, you can learn more about my musical career: <a href='https://theguitarist.thomashorvath.hu' target='_blank'> theguitarist.thomashorvath.hu</a></p>",
         "secundInfoTitle": "2. The IT Professional",
         "secundInfoContent": "<p>The world of computers fascinated me from a young age, during the era of MS-DOS and the Commodore 64.</p><p>Although I initially pursued music, the advent of COVID-19 radically transformed my life. Music took a backseat, but seizing a great opportunity, I began studying IT. This field ignited the same enthusiasm in me as when I first started with music.</p>",
         "thirdInfoTitle": "3. Hobbies",
@@ -47,89 +47,122 @@
         "frontEndSkills": [
             {
                 "name": "HTML 5",
-                "icon": "htmlIcon"
+                "icon": "htmlIcon",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
             },
             {
                 "name": "CSS 3",
-                "icon": "cssIcon"
+                "icon": "cssIcon",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
             },
             {
                 "name": "Javascript",
-                "icon": "jsIcon"
+                "icon": "jsIcon",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             },
             {
                 "name": "Sass",
-                "icon": "sassIcon"
+                "icon": "sassIcon",
+                "link": "https://sass-lang.com/"
             },
             {
                 "name": "React",
-                "icon": "reactIcon"
+                "icon": "reactIcon",
+                "link": "https://react.dev/"
             },
             {
                 "name": "Bootstrap",
-                "icon": "bootstrapIcon"
+                "icon": "bootstrapIcon",
+                "link": "https://getbootstrap.com/"
             }
-          
         ],
         "backEndTitle": "Back-End",
         "backEndSkills": [
             {
                 "name": "Node js",
-                "icon": "nodejsIcon"
-            },
-            {
-                "name": "Python",
-                "icon": "pythonIcon"
+                "icon": "nodejsIcon",
+                "link": "https://nodejs.org/en"
             },
             {
                 "name": "Express",
-                "icon": "expressIcon"
+                "icon": "expressIcon",
+                "link": "https://expressjs.com/"
+            },
+            {
+                "name": "Python",
+                "icon": "pythonIcon",
+                "link": "https://www.python.org/"
             },
             {
                 "name": "Django",
-                "icon": "djangoIcon"
+                "icon": "djangoIcon",
+                "link": "https://www.djangoproject.com/"
+            },
+            {
+                "name": "PHP",
+                "icon": "phpIcon",
+                "link": "https://www.php.net/"
+            },
+            {
+                "name": "Laravel",
+                "icon": "laravelIcon",
+                "link": "https://laravel.com/"
             }
         ],
-        "databaseTitle": "Databases",
+        "databaseTitle": "Adatbázisok",
         "databaseSkills": [
             {
                 "name": "MsSql",
-                "icon": "mssqlIcon"
+                "icon": "mssqlIcon",
+                "link": "https://www.microsoft.com/en-us/sql-server"
             },
             {
                 "name": "Mysql",
-                "icon": "mysqlIcon"
+                "icon": "mysqlIcon",
+                "link": "https://www.mysql.com/"
+            },
+            {
+                "name": "SQLite",
+                "icon": "sqliteIcon",
+                "link": "https://www.sqlite.org/"
             },
             {
                 "name": "MongoDb",
-                "icon": "mongodbIcon"
+                "icon": "mongodbIcon",
+                "link": "https://www.mongodb.com/"
             }
         ],
-        "otherTitle": "Others",
+        "otherTitle": "Egyéb",
         "otherSkills": [
             {
                 "name": "Git",
-                "icon": "gitIcon"
+                "icon": "gitIcon",
+                "link": "https://git-scm.com/"
             },
             {
                 "name": "Github",
-                "icon": "githubIcon"
+                "icon": "githubIcon",
+                "link": "https://github.com/"
             },
             {
                 "name": "Figma",
-                "icon": "figmaIcon"
+                "icon": "figmaIcon",
+                "link": "https://www.figma.com"
             },
             {
                 "name": "VsCode",
-                "icon": "vscodeIcon"
+                "icon": "vscodeIcon",
+                "link": "https://code.visualstudio.com/"
             },
             {
                 "name": "Linux",
-                "icon": "linuxIcon"
+                "icon": "linuxIcon",
+                "link": "https://ubuntu.hu/"
             },
             {
                 "name": "Docker",
-                "icon": "docker"
+                "icon": "docker",
+                "link": "https://www.docker.com/"
             }
         ]
     },
@@ -430,7 +463,7 @@
             "id": 1,
             "type": "Website",
             "title": "GitArt Rehearsal Room and Studio Website",
-            "cardDescription": "The website of GitArt Rehearsal Room and Studio.",
+            "cardDescription": "GitArt",
             "popupDescription": [
                 "This project implements the website for the GitArt Rehearsal Room and Studio.",
                 "The site functionally implements online booking for the rooms.",
@@ -465,7 +498,7 @@
             "id": 2,
             "type": "Website",
             "title": "Electric Guitar Shop E-commerce Webshop",
-            "cardDescription": "Client-side frontend of a musical instrument store webshop.",
+            "cardDescription": "EGS webshop",
             "popupDescription": [
                 "This project implements the client-side frontend for the EGS musical instrument store and webshop.",
                 "The site enables product display, order placement, and cart management.",
@@ -499,7 +532,7 @@
             "id": 3,
             "type": "Back-end",
             "title": "Electric Guitar Shop - Webshop Server",
-            "cardDescription": "Server-side of the musical instrument store webshop.",
+            "cardDescription": "EGS - server",
             "popupDescription": [
                 "The server-side implementation for the EGS musical instrument store client and admin interface.",
                 "The server handles incoming requests using a NodeJs Express server.",
@@ -531,7 +564,7 @@
             "id": 4,
             "type": "Website",
             "title": "Electric Guitar Shop Webshop - Admin Interface",
-            "cardDescription": "Admin interface of the musical instrument store webshop.",
+            "cardDescription": "EGS - admin panel",
             "popupDescription": [
                 "The administration interface of the Electric Guitar Shop Webshop, where users with admin rights can manage the shop data after logging in.",
                 "Admins can view general sales data, manage product details, update them, create or delete products.",
@@ -569,7 +602,7 @@
             "id": 5,
             "type": "Database",
             "title": "MS SQL - EGS Webshop Database",
-            "cardDescription": "Microsoft SQL Server database for the Electric Guitar Shop webshop.",
+            "cardDescription": "EGS - MsSql database",
             "popupDescription": [
                 "Relational database designed up to the third normal form on a Microsoft SQL Server 2022.",
                 "The goal was to store data for users, products, and orders.",
@@ -596,7 +629,7 @@
             "id": 6,
             "type": "Website",
             "title": "Thomas Coffee Corner - Café Website",
-            "cardDescription": "Thomas Coffee Corner - Café Website",
+            "cardDescription": "Thomas Coffee Corner",
             "popupDescription": [
                 "A front-end implementation of a fictional café using HTML, CSS, and JavaScript.",
                 "The project includes product display, filtering, and a product search function."
@@ -628,7 +661,7 @@
             "id": 7,
             "type": "Back-end",
             "title": "GitArt Rehearsal Room and Studio Server",
-            "cardDescription": "Back-end implementation of the GitArt Rehearsal Room and Studio.",
+            "cardDescription": "GitArt - server",
             "popupDescription": [
                 "This project is the back-end server part of the GitArt rehearsal room and studio website.",
                 "The project is implemented using a Node.js Express server.",
@@ -660,7 +693,7 @@
             "id": 8,
             "type": "Website",
             "title": "Róbert Csibi - Leather Craftsman Portfolio",
-            "cardDescription": "A portfolio website for a leather craftsman.",
+            "cardDescription": "Leather Craftsman Portfolio",
             "popupDescription": [
                 "The portfolio website for Róbert Csibi, a leather craftsman. In addition to general information, a photo gallery has also been implemented.",
                 "The images can be viewed enlarged in a modal window."
@@ -691,7 +724,7 @@
             "id": 9,
             "type": "Database",
             "title": "MongoDB - EGS Webshop Database",
-            "cardDescription": "The MongoDB server database for the Electric Guitar Shop (EGS) webshop.",
+            "cardDescription": "EGS - MongoDB database",
             "popupDescription": [
                 "This database manages the products, orders, and users."
             ],
@@ -717,7 +750,7 @@
             "id": 10,
             "type": "Website",
             "title": "Calculator Application",
-            "cardDescription": "A calculator application.",
+            "cardDescription": "Calculator",
             "popupDescription": [
                 "A calculator application implemented using HTML, CSS, and JavaScript.",
                 "The project offers two different user interfaces: an old-fashioned and a modern design."
@@ -744,7 +777,7 @@
             "id": 11,
             "type": "Database",
             "title": "MongoDB - GitArt Rehearsal Room and Studio Database",
-            "cardDescription": "The database for the GitArt Rehearsal Room and Studio.",
+            "cardDescription": "GitArt - MongoDb database",
             "popupDescription": [
                 "This project is the back-end database for the GitArt rehearsal room and studio website.",
                 "It stores user data and rehearsal room bookings.",

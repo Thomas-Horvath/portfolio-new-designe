@@ -36,7 +36,7 @@ const ProjectDetail = () => {
     if (!project) return <p>A projekt nem található!</p>;
 
     return (
-        <div className="project-detail-container">
+        <div className="project-detail-container" id="projects" data-observe>
             <div className="detail-wrapper">
                 <h1>{project.title}</h1>
                 <div className="project-detail">

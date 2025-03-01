@@ -3,8 +3,7 @@
     width: 100%;
     top: 0rem;
     z-index: 3;
-    
-    padding: 0 calc(2rem - 12px) 0 2rem;
+    padding: 0 calc(1rem - 12px) 0 1rem;
     height: 60px;
     background-color: rgba(218, 197, 167, .07);
     border-bottom: $border;
@@ -79,12 +78,11 @@
     width: 100%;
     height: auto;
     background-color: $bg-dark;
-    padding: 1rem 2rem 2rem;
+    padding: 1rem 1rem;
     overflow-y: auto;
     z-index: 1;
     top: -110%;
     visibility: hidden;
-    // transition: top .4s ease, visibility .4s ease;
 }
 
 
@@ -100,7 +98,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition:  background-color .3s ease;
+    transition: background-color .3s ease;
     border: none;
     border-radius: 3px;
     background-color: $main-color-6;
@@ -108,9 +106,9 @@
 }
 
 .hamburger-btn-close:hover {
-   
+
     background-color: $main-color;
-   
+
 }
 
 .nav-links {
@@ -128,17 +126,16 @@
     display: block;
     padding: 1rem 0;
     transition: color 0.5s ease;
+    user-select: none;
+    
 }
 
-.nav-link:hover {
-    color: $main-color-6;
-
-}
-
+.nav-link:hover,
 .nav-link.active {
     color: $main-color-6;
-
+    background-color: #222;
 }
+
 
 
 .nav-links {
@@ -152,7 +149,7 @@
 
 .nav-links {
     li:first-child {
-        border-top: 1px solid $small-menu-border;
+        border-top: 1px solid $main-color-6;
         margin-top: 1rem;
     }
 }
@@ -160,27 +157,4 @@
 .open {
     top: 0;
     visibility: visible;
-}
-
-
-
-/* Görgetéskor alkalmazott stílusok */
-.header.scrolled {
-    background: $bg-header-dark ;
-    /* Átlátszó fekete háttér */
-    height: 70px;
-    /* Csökkentett magasság */
-    border-bottom: 1px solid #f5b32f8c;
-}
-
-/* Logó stílusok */
-.nav-logo-img {
-    transition: all 0.3s ease;
-}
-
-.header.scrolled .nav-logo-img {
-    width: 45px;
-    /* Csökkentett logó méret */
-    height: 45px;
-    /* Csökkentett logó méret */
 }

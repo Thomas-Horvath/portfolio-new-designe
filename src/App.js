@@ -30,6 +30,7 @@ function App() {
           <PageUpBtn />
         </Router>
       </LanguageProvider>
+   
     </div>
   );
 }

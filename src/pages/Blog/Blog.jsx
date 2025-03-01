@@ -65,7 +65,7 @@ const Blog = () => {
                                         <img src={`${process.env.PUBLIC_URL}${translations.mainBlogPage.blogContent1.imageSrc}`} alt={translations.mainBlogPage.blogContent1.imageAlt} />
                                         <p>{translations.mainBlogPage.blogContent1.description}</p>
                                     </div>
-                                    <Link to={translations.mainBlogPage.blogContent1.link} className="btn-secund">{translations.mainBlogPage.blogContent1.buttonText}</Link>
+                                    <Link to={translations.mainBlogPage.blogContent1.link} className="btn-secund btn-blog-card">{translations.mainBlogPage.blogContent1.buttonText}</Link>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -75,7 +75,7 @@ const Blog = () => {
                                         <img src={`${process.env.PUBLIC_URL}${translations.mainBlogPage.blogContent2.imageSrc}`} alt={translations.mainBlogPage.blogContent2.imageAlt} />
                                         <p>{translations.mainBlogPage.blogContent2.description}</p>
                                     </div>
-                                    <Link to={translations.mainBlogPage.blogContent2.link} className="btn-secund">{translations.mainBlogPage.blogContent2.buttonText}</Link>
+                                    <Link to={translations.mainBlogPage.blogContent2.link} className="btn-secund btn-blog-card">{translations.mainBlogPage.blogContent2.buttonText}</Link>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -85,7 +85,7 @@ const Blog = () => {
                                         <img src={`${process.env.PUBLIC_URL}${translations.mainBlogPage.blogContent3.imageSrc}`} alt={translations.mainBlogPage.blogContent3.imageAlt} />
                                         <p>{translations.mainBlogPage.blogContent3.description}</p>
                                     </div>
-                                    <Link to={translations.mainBlogPage.blogContent3.link} className="btn-secund">{translations.mainBlogPage.blogContent3.buttonText}</Link>
+                                    <Link to={translations.mainBlogPage.blogContent3.link} className="btn-secund btn-blog-card">{translations.mainBlogPage.blogContent3.buttonText}</Link>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
@@ -95,7 +95,7 @@ const Blog = () => {
                                         <img src={`${process.env.PUBLIC_URL}${translations.mainBlogPage.blogContent4.imageSrc}`} alt={translations.mainBlogPage.blogContent4.imageAlt} />
                                         <p>{translations.mainBlogPage.blogContent4.description}</p>
                                     </div>
-                                    <Link to={translations.mainBlogPage.blogContent4.link} className="btn-secund">{translations.mainBlogPage.blogContent4.buttonText}</Link>
+                                    <Link to={translations.mainBlogPage.blogContent4.link} className="btn-secund btn-blog-card">{translations.mainBlogPage.blogContent4.buttonText}</Link>
                                 </div>
                             </SwiperSlide>
 

@@ -2,10 +2,11 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { img } from '../../assets/assets.js';
 import { LanguageContext } from '../../contexts/LanguageContext';
 import { motion } from 'framer-motion';
 import { FaFacebook, FaLinkedin, FaGithub, FaPaperPlane } from "react-icons/fa";
+import { BsArrowDownShort } from "react-icons/bs";
+import ScrollingText from '../../components/ScrollText/ScrollText';
 
 const Home = () => {
   const { translations } = useContext(LanguageContext);
@@ -48,6 +49,7 @@ const Home = () => {
         >
           {translations.home.name}
         </motion.h1>
+
         <motion.div
           className="content-container"
           initial="hidden"
@@ -55,6 +57,7 @@ const Home = () => {
           variants={animationVariantsLeft}
           transition={{ duration: 0.6 }}
         >
+
           <motion.p
             initial="hidden"
             animate="visible"
@@ -64,7 +67,18 @@ const Home = () => {
           >
             {translations.home.profession1}
           </motion.p>
-          {/* <motion.p
+
+          <motion.p
+            initial="hidden"
+            animate="visible"
+            variants={animationVariantsLeft}
+            transition={{ duration: 0.6 }}
+            className="home-paragraph"
+          >
+            &nbsp;-&nbsp;
+          </motion.p>
+
+          <motion.p
             initial="hidden"
             animate="visible"
             variants={animationVariantsLeft}
@@ -72,7 +86,8 @@ const Home = () => {
             className="home-paragraph"
           >
             {translations.home.profession2}
-          </motion.p> */}
+          </motion.p>
+
         </motion.div>
         <motion.h3
           initial="hidden"
@@ -92,9 +107,13 @@ const Home = () => {
 
         >
           <HashLink to="/#contact" className="btn home-btn">
-          <FaPaperPlane />{translations.home.buttonText}
+            <FaPaperPlane />{translations.home.buttonText}
           </HashLink>
         </motion.div>
+
+
+        {/* <ScrollingText /> */}
+
 
         <div className="home-social-media">
           <Link
@@ -122,12 +141,10 @@ const Home = () => {
             <FaGithub />
           </Link>
         </div>
+        <div className="home-down-arrow"><BsArrowDownShort /></div>
+
       </section>
-      {/* <img
-        src={img.wave}
-        alt="fekete hullám háttér"
-        className="wave js-wave"
-      /> */}
+
     </>
   );
 }

@@ -50,7 +50,8 @@ const About = () => {
                         <p dangerouslySetInnerHTML={{ __html: translations.about.secundParagraph }} />
                         <p dangerouslySetInnerHTML={{ __html: translations.about.thirdParagraph }} />
                         <p dangerouslySetInnerHTML={{ __html: translations.about.forthParagraph }} />
-                        <p dangerouslySetInnerHTML={{ __html: translations.about.fifthParagraph }} />
+                        {/* <p dangerouslySetInnerHTML={{ __html: translations.about.fifthParagraph }} /> */}
+                        <p dangerouslySetInnerHTML={{ __html: translations.about.sixthParagraph }} />
 
                     </div>
                 </div>

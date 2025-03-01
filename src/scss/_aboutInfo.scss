@@ -1,9 +1,9 @@
 .more-info-container {
-    // background-color: $main-color;
-
+    grid-area: moreInfo;
     width: 100%;
     padding: 6rem 0;
-    margin-top: 4rem;
+    margin: 0;
+    
 
 
     .info-group-wrapper {
@@ -14,29 +14,31 @@
             color: $text-color-gray;
             padding: 2rem 1rem;
             font-size: 1.8rem;
-            font-family: $font-family-poppins-bold;
+            font-family: $font-family-chill;
             text-align: center;
         }
 
     }
 
     .info-group {
-        padding: 0 1rem .5rem 1rem;
+        padding: 0 1rem .8rem 1rem;
     }
 
     .info-title {
         padding: 1rem 2rem;
-        background: $bg-header-dark;
-
+        background: $bg-dark-2;
+        border: $border;
+        color: $main-color-6;
         display: flex;
         justify-content: space-between;
         border-radius: 10px;
         align-items: center;
         cursor: pointer;
+        user-select: none;
 
         svg {
             font-size: 2.6rem;
-            color: $main-color;
+            color: $main-color-6;
 
         }
 
@@ -48,16 +50,16 @@
     .info-content {
         padding: 1.5rem;
         background: $bg-light-darker;
-        border: 2px solid $btn-color-dark;
+        border: $border;
         margin-top: .5rem;
         border-radius: 20px;
         display: none;
 
         p {
-            //width: 80%;
             margin-bottom: 1rem;
             font-size: 1.1rem;
             line-height: 1.6rem;
+            color: $main-color-6;
 
             a {
                 color: $main-color;
@@ -83,5 +85,5 @@
 .wave-yellow {
     margin-top: -3px;
     width: 110%;
-  
+
 }

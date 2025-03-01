@@ -4,20 +4,28 @@ import { LanguageContext } from '../../contexts/LanguageContext';
 import Logo from '../../assets/img/Logo_Thomas_main_color.svg';
 import useIntersectionObserver from '../../utilities/Observer';
 import { FaBars, FaXmark } from "react-icons/fa6";
+import { useLocation } from 'react-router-dom';
 
 const Navbar = ({ isOpen, toggleMenu }) => {
   const { translations } = useContext(LanguageContext);
-
   const [activeSection, setActiveSection] = useState('');
-
-
   const options = {
     root: null,
     rootMargin: '0px',
     threshold: 0.1 // Esetleg állíthatod, hogy milyen százalékban legyen látható a szekció
   };
-
   const entries = useIntersectionObserver(options);
+  const location = useLocation();
+
+
+
+
+  useEffect(() => {
+    setActiveSection(''); // Reset, amikor új oldalra navigálsz
+  }, [location.pathname]);
+
+
+
 
   useEffect(() => {
     // Ellenőrzi az összes belépési eseményt
@@ -27,6 +35,9 @@ const Navbar = ({ isOpen, toggleMenu }) => {
       setActiveSection(`#${firstVisible}`);
     }
   }, [entries]);
+
+
+
 
   const isActive = (path) => {
     if (Array.isArray(path)) {
@@ -40,9 +51,9 @@ const Navbar = ({ isOpen, toggleMenu }) => {
     <nav className={`navbar ${isOpen ? 'open' : ''}`}>
       <img className="nav-logo-img" src={Logo} alt="arany színű logo" />
       <ul className="nav-links">
-        <li>
+        <li> 
           <HashLink
-            className={`nav-link ${isActive('/#') ? 'active' : ''}`}
+            className={`nav-link ${isActive('#home') ? 'active' : ''}`}
             to="/#"
             onClick={toggleMenu}
           >

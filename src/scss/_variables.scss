@@ -1,55 +1,15 @@
-//fonts
-@font-face {
-    font-family: "Poppins-regular";
-    src: url(../fonts/Poppins-Regular.ttf);
-    font-weight: 400;
-}
+//! Fonts
 
-@font-face {
-    font-family: "Poppins-medium";
-    src: url(../fonts/Poppins-Medium.ttf);
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Poppins-bold";
-    src: url(../fonts/Poppins-Bold.ttf);
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: "Poppins-extrabold";
-    src: url(../fonts/Poppins-ExtraBold.ttf);
-    font-weight: 800;
-}
-
-@font-face {
-    font-family: "Poppins-black";
-    src: url(../fonts/Poppins-Black.ttf);
-    font-weight: 900;
-}
-
-@font-face {
-    font-family: "ProtestRiot";
-    src: url(../fonts/ProtestRiot-Regular.ttf);
-}
-@font-face {
-    font-family: "Inter";
-    src: url(../fonts/Inter.ttf);
-}
-
-@font-face {
-    font-family: "Outfit";
-    src: url(../fonts/Outfit.ttf);
-}
 @font-face {
     font-family: "Satoshi";
     src: url(../fonts/Satoshi-Variable.ttf);
 }
+
 @font-face {
     font-family: "Gam-i";
     src: url(../fonts/Gambetta-VariableItalic.ttf);
 }
+
 @font-face {
     font-family: "Chill";
     src: url(../fonts/Chillax-Variable.ttf);
@@ -57,72 +17,54 @@
 
 
 
-// // main colors  
+//! main colors  
 $main-color: #dac5a7;
-$main-color-6: rgba(218, 197, 167,.6);
+$main-color-8: #fee3bd;
+$main-color-6: rgba(218, 197, 167, .6);
 $main-color-blue: #1b7ce4;
 $main-color-darker: #f3a70f;
-$main-color-30: #dac5a733;
-$main-color-55: #dac5a78c;
-$main-color-75: #f5b32fbf;
-
-
+$main-color-2: rgba(218, 197, 167, 0.2);
 $main-red: #db5a42;
 $gray-100: #797979;
 $black: #000;
 $white-100: #ffffff;
 
-$border: 1px solid rgba(218, 197, 167, .15);
 
-// font family 
-$font-family-poppins-regular: "Poppins-regular", sans-serif;
-$font-family-poppins-medium: "Poppins-medium", sans-serif;
-$font-family-poppins-bold: "Poppins-bold", sans-serif;
-$font-family-poppins-extrabold: "Poppins-extrabold", sans-serif;
-$font-family-poppins-black: "Poppins-black", sans-serif;
-$font-family-protest: "ProtestRiot", sans-serif;
-$font-family-inter: "Inter";
-$font-family-outfit: "Outfit";
+//! borders
+$border: 1px solid rgba(218, 197, 167, .15);
+$border-2: 2px solid $main-color-6;
+$border-3: 2px solid rgba(218, 197, 167, .15);
+
+//! font family 
 $font-family-satoshi: "Satoshi";
 $font-family-chill: "Chill";
 $font-family-gam-i: "Gam-i";
-// backgrounds 
 
-$bg-header-dark: #191919;
-$bg-light: $white-100;
+
+//! backgrounds 
+$bg-dark: rgb(17, 17, 17); //main bg
+$bg-dark-2: #191919;
 $bg-color: #0a0a0f;
-//main bg
-$bg-dark: #0e0e0e;
-// $bg-dark: #111;
-// $bg-dark: #292828;
-$bg-light: #f4f1f1;
-
 $bg-dark-light: #1a1a1a;
-
 $bg-light-darker: #2A2A30;
 $bg-card: #44444477;
 
 
-//  btn color 
-$btn-color-light: #fafaff;
-$btn-color-dark: #111111;
+//!  btn color 
+$btn-color-dark: #111;
 
-//  box shadows 
-$box-shadow-light: 0 -5px 20px $main-color-30;
+//!  box shadows 
 $box-shadow-dark: 0 5px 10px rgba(0, 0, 0, 0.2);
 $box-shadow-card: 4px 4px 10px $black;
 
-// text color 
+//! text color 
 $text-color-light: #ddd;
-$text-grey: #333;
 $text-grey-light: #666;
-$small-menu-border: #ffffff25;
 $text-color-gray: #a3a3a3;
 
 
-// linear gradient 
-$blog-linear: linear-gradient(135deg, $main-color-30, $main-color-30);
-$footer-linear: linear-gradient(135deg, $main-color-6 20%, $main-color-30 , #11111166);
-$portfolio-linear: linear-gradient(135deg, $main-color, $main-color-55, #444, #333, #000);
-$bg-linear-gradient: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, .9), rgb(14, 14, 14)80%), url(../assets/img/BG-gray.webp) center/cover;
+//! linear gradient 
+$blog-linear: linear-gradient(135deg, $main-color-2, $main-color-2);
+$footer-linear: linear-gradient(135deg, $main-color-6 20%,  #11111166);
+$bg-linear-gradient: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, .75), rgb(17, 17, 17)80%), url(../assets/img/BG-gray.webp) center/cover;
 $bg-linear-gradient-light: linear-gradient(rgba(255, 255, 255, .8), #fff), url(../assets/img/BG-gray.webp) center/cover;

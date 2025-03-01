@@ -1,10 +1,74 @@
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+    .home {
+        h1 {
+            margin-bottom: 0;
+        }
+    }
 
-    section {
-        padding-top: 3rem;
+    .header {
+        padding: 0 calc(2rem - 12px) 0 2rem;
+    }
+
+    .project-card {
+        .card-text {
+            bottom: 1rem;
+            margin: 0 1rem;
+            padding: .7rem 1rem;
+        }
+
+        .title {
+            font-size: 1.1rem;
+        }
+
+        .type {
+            font-size: .8rem;
+        }
+
+        .icon {
+            svg {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .gallery {
+        .gallery-containre {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .copyright-container {
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .home {
+
+        .content-container {
+            margin-bottom: 6rem;
+            flex-direction: row;
+        }
+
+        h3 {
+            margin-bottom: 3rem;
+        }
+
+        .home-paragraph:nth-child(2) {
+            display: inline-block;
+        }
+
+        .home-down-arrow {
+            bottom: 3rem;
+        }
     }
 
     .main-heading {
+        margin-top: 7rem;
+
         h2 {
             font-size: 4.5rem;
         }
@@ -71,12 +135,16 @@
     }
 
     .footer {
+        .footer-social-media {
+            padding: 0;
+        }
 
         .footerInfo {
             flex-direction: row;
             text-align: center;
             gap: 2rem;
-            padding: .7rem 1rem;
+            padding: 0 1rem;
+            margin-bottom: 2rem;
 
             a {
                 padding: .5rem;
@@ -91,7 +159,7 @@
 
     .footer-social-media {
         gap: 3rem;
-        padding: 1rem;
+        // padding: 1rem;
     }
 
     .impresszum {
@@ -140,9 +208,38 @@
             font-size: 1.2rem;
         }
     }
+
+    .detail-wrapper {
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    .gallery {
+
+        h2 {
+            font-size: 2.2rem;
+        }
+    }
+
+    .project-links {
+        gap: 4rem;
+        padding: 2rem;
+    }
 }
 
 @media (min-width: 992px) {
+    .home {
+        .content-container {
+            .home-paragraph {
+                font-size: 1.4rem;
+            }
+        }
+
+
+
+    }
+
     .header {
         position: fixed;
         width: 900px;
@@ -196,20 +293,30 @@
                 font-size: .9rem;
                 padding: 0;
                 padding-bottom: 0;
-                background-image: linear-gradient($main-color, $main-color);
+                background-image: linear-gradient($main-color-6, $main-color-6);
                 background-size: 0 2px;
                 background-repeat: no-repeat;
                 background-position: 0 100%;
                 transition: color 0.3s ease, background-size 0.3s ease;
             }
 
+            .nav-link:hover,
+            .nav-link.active {
+                color: $main-color-6;
+                background-color: transparent;
+                font-weight: 400;
+            }
+
+
+
+
             .nav-link:hover {
-                color: $main-color;
+                color: $main-color-6;
                 background-size: 100% 2px;
             }
 
             .nav-link.active {
-                color: $main-color;
+                color: $main-color-6;
                 background-size: 100% 2px;
             }
 
@@ -227,7 +334,7 @@
     .home {
         h1 {
             font-size: 6.5rem;
-            margin-bottom: 3rem;
+            margin-bottom: 1rem;
         }
 
         h3 {
@@ -291,15 +398,15 @@
 
     // skill section
     .skill-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(2, 1fr);
         padding: 1rem 3rem;
         gap: 2rem;
         max-width: 1400px;
-        margin: auto;
+        margin: 4rem auto 0;
         grid-template-areas:
-            "card1 card1 card2"
-            "card3 card4 card4";
+            "card1 card1 card1 card2 card2 card2"
+            "card3 card3 card4 card4 card4 card4";
 
         .skills-card {
             width: 100%;
@@ -343,160 +450,206 @@
             grid-area: card4;
         }
 
+    }
 
-
-        // portfolio 
-        .card-wrapper {
-            max-width: 1400px;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 4em 2rem;
-
+    // portfolio 
+    .project-card {
+        .card-text {
+            bottom: 1.5rem;
+            margin: 0 1.5rem;
+            padding: .7rem 2rem;
         }
 
-        .portfolio-content {
-            padding: 2rem .6rem 3rem;
-            gap: 2rem;
+        .title {
+            font-size: 1.3rem;
         }
 
-        .portfolio-popup-content-container {
-            flex-direction: row;
+        .type {
+            font-size: .9rem;
+        }
+    }
 
-            .content-container {
-                width: 50%;
-                justify-content: space-between;
+    .project-detail {
+        flex-direction: row;
+    }
 
-                .portfolio-popup-content-description {
-                    padding: 2rem;
-                }
+    .project-image-container {
+        width: 50%;
+        margin-bottom: 0;
+    }
 
-                .portfolio-popup-btn-group {
-                    gap: 4rem;
-                    justify-content: flex-end;
-                }
+    .project-info {
+        width: 50%;
+        padding-left: 3rem;
+    }
+
+    .gallery {
+        .gallery-containre {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+
+    .card-wrapper {
+        max-width: 1400px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4em 2rem;
+
+    }
+
+    .portfolio-content {
+        padding: 2rem .6rem 3rem;
+        gap: 2rem;
+    }
+
+    .portfolio-popup-content-container {
+        flex-direction: row;
+
+        .content-container {
+            width: 50%;
+            justify-content: space-between;
+
+            .portfolio-popup-content-description {
+                padding: 2rem;
             }
 
-
-
+            .portfolio-popup-btn-group {
+                gap: 4rem;
+                justify-content: flex-end;
+            }
         }
 
-        .btn-contact {
-            align-self: flex-start;
-        }
 
 
     }
 
+    .btn-contact {
+        align-self: flex-start;
+    }
 
-    @media (min-width: 1200px) {
-        .nav {
-            .nav-links {
-                gap: 3rem;
-            }
+
+
+}
+
+@media (min-width: 1200px) {
+    .nav {
+        .nav-links {
+            gap: 3rem;
+        }
+    }
+
+    .home {
+        h1 {
+            font-size: 9em;
+            margin-bottom: 2rem;
         }
 
-        .home {
-            h1 {
-                font-size: 9em;
+        h3 {
+            font-size: 1.7rem;
+        }
+    }
+
+    .about-container {
+        margin-top: 1rem;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+        grid-template-areas:
+            'aboutLeft aboutRight'
+            'btnGroup aboutRight'
+            'moreInfo moreInfo';
+    }
+
+    .about-left {
+        width: 700px;
+        grid-area: aboutLeft;
+        align-items: center;
+        justify-self: end;
+        margin-bottom: 0;
+
+
+        .about-img {
+            padding: 1rem  4rem;
+            display: flex;
+            justify-content: center; 
+
+          img {
+            max-width: 600px;
+            max-height: 600px;
+          }
+        }
+    }
+
+    .about-right {
+
+        max-width: 700px;
+        grid-area: aboutRight;
+        margin-bottom: 0;
+
+        .about-section {
+            padding: 2rem 3rem 0rem 2rem;
+            margin-bottom: 0;
+
+            h3 {
+                font-size: 1.8rem;
                 margin-bottom: 3rem;
             }
 
-            h3 {
-                font-size: 1.7rem;
+            p {
+                font-size: 1rem;
             }
-        }
 
-        .about-container {
-            grid-template-columns: 1fr 1fr;
-            overflow: hidden;
-            grid-template-areas:
-                'aboutLeft aboutRight'
-                'btnGroup aboutRight'
-                'waveYellowReverse waveYellowReverse'
-                'moreInfo moreInfo'
-                'waveYellow waveYellow';
-        }
-
-        .about-left {
-            width: 700px;
-            grid-area: aboutLeft;
-            align-items: center;
-            justify-self: end;
-
-        }
-
-        .about-right {
-
-            max-width: 700px;
-            grid-area: aboutRight;
-            margin-bottom: 0;
-
-            .about-section {
-                padding: 2rem 3rem 0rem 2rem;
-                margin-bottom: 0;
-
-                h3 {
-                    font-size: 1.8rem;
-                }
-
-                p {
-                    font-size: 1rem;
-                }
-
-                strong {
-                    font-size: 1rem;
-                }
-
+            strong {
+                font-size: 1rem;
             }
-        }
-
-        .about-img {
-            width: 520px;
-            height: 520px;
-        }
-
-        .about-img::after,
-        .about-img::before {
-            width: 150px;
-            height: 150px;
-        }
-
-        .about-left img {
-            width: 520px;
-            height: 520px;
-        }
-
-        .more-info-container {
-            grid-area: moreInfo;
-        }
-
-        .btn-group {
-            grid-area: btnGroup;
-            width: 700px;
-            align-items: start;
-            justify-self: end;
-        }
-
-        .wave-yellow {
-            grid-area: waveYellow;
-            margin-bottom: 4rem;
 
         }
-
-        .wave-yellow-reverse {
-            grid-area: waveYellowReverse;
-        }
-
-        .quote {
-            padding: 6rem 3rem;
-
-            .quote-container {
-                width: 60%;
-
-                max-width: 1400px;
-            }
-        }
-
-
     }
+
+    .about-img {
+        width: 520px;
+        height: 520px;
+    }
+
+    .about-img::after,
+    .about-img::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-left img {
+        width: 520px;
+        height: 520px;
+    }
+
+    .more-info-container {
+        grid-area: moreInfo;
+    }
+
+    .btn-group {
+        grid-area: btnGroup;
+        width: 700px;
+        align-items: center;
+        justify-self: end;
+        margin: 4rem 0 3rem;
+    }
+
+
+
+
+    .wave-yellow-reverse {
+        grid-area: waveYellowReverse;
+    }
+
+    .quote {
+        padding: 6rem 3rem;
+
+        .quote-container {
+            width: 60%;
+
+            max-width: 1400px;
+        }
+    }
+
+
 }

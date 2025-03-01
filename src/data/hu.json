@@ -11,32 +11,33 @@
         "name": "Horváth Tamás",
         "profession1": "Full-Stack webfejlesztő",
         "profession2": "Adatbázis specialista",
-        "subTitle": " \"Kódolj szépséget, hozz létre élményt!\"",
+        "subTitle": " „Kódolj szépséget, hozz létre élményt!”",
         "buttonText": "Küldj üzenetet"
     },
     "about": {
         "headingTitle": "Néhány szó",
         "headingSpan": "Rólam",
-        "mainTitle": "Engedd meg, hogy néhány sorban bemutatkozzam!",
-        "firstParagraph": "<strong>Horváth Tamás</strong> vagyok, eredetileg zenész, zeneszerző, alkotó. A webfejlesztéssel 2022-ben kezdtem komolyabban foglalkozni.",
-        "secundParagraph": "Szeretek alkotni, a tanulás a hobbim. Szeretem a logikusan felépülő rendszereket. Precízen, tökéletességre törekedve ugyanakkor kreatívan megoldani a feladatokat.",
-        "thirdParagraph": "<strong>2022 tavaszán</strong> az Újratervezés program keretében lehetőséget kaptam az IT világába való betekintésre. A <strong>rendszerüzemeltető </strong>képzés során elsajátítottam a számítástechnika alapelveit, a hálózatüzemeltetés alapjait, valamint a kliens (Windows, Linux) és szerver oldali (Windows Server, Linux Server) operációs rendszerek, virtuális gépek (Hyper-V, Docker) és cloud platformok (Azure, AWS) szolgáltatásainak felépítését, használatát és üzemeltetését.",
+        "mainTitle": "Engedd meg, hogy bemutatkozzam!",
+        "firstParagraph": "<strong>Horváth Tamás</strong> vagyok, webfejlesztő, rendszergazda és adatbázis specialista. Modern, felhasználóbarát, reszponzív és innovatív weboldalak és alkalmazásokat fejlesztek, tervezek és optimalizálok.",
+        "secundParagraph": "Otthonosan mozgok a <strong>frontend</strong>  és <strong>backend</strong>  technológiák világában, beleértve a JavaScript, PHP, Python, SQL és NoSQL adatbázisok (MySQL, MongoDB) használatát. <strong>Full-stack</strong> fejlesztőként képes vagyok teljes körű digitális megoldásokat létrehozni, a látványos, interaktív felületektől kezdve a stabil és hatékony szerveroldali rendszerekig.",
+        "thirdParagraph": "<strong>2022 tavaszán</strong> az „Újratervezés” program keretében lehetőséget kaptam az IT világába való betekintésre. A <strong>rendszerüzemeltető </strong>képzés során elsajátítottam a számítástechnika alapelveit, a hálózatüzemeltetés alapjait, valamint a kliens (Windows, Linux) és szerver oldali (Windows Server, Linux Server) operációs rendszerek, virtuális gépek (Hyper-V, Docker) és cloud platformok (Azure, Digital Ocean) szolgáltatásainak felépítését, használatát és üzemeltetését.",
         "forthParagraph": "Ezt követően <strong>adatbázis specialista </strong>képzésen vettem részt, ahol haladó szinten elsajátítottam az SQL nyelvet, valamint a különböző adatbázis szoftverek (MS SQL, MySQL, MongoDB) használatát, konfigurálását és üzemeltetését. Ezen kívül elsajátítottam az adatbázisok tervezését és optimalizálását is.",
         "fifthParagraph": "Folyamatos tanulás iránti elkötelezettségemnek köszönhetően, és mivel mindig a teljes képet szeretem látni, <strong>full-stack fejlesztő </strong>karrier felé vettem az irányt. A <strong>front-end fejlesztés</strong> haladó szintű elsajátítása mellett jelenlegi célom a back-end oldal megismerése, amellyel teljes rendszereket tudok majd megvalósítani a webfejlesztés platformján.",
+        "sixthParagraph":"Szeretek alkotni, a tanulás a hobbim. Szeretem a logikusan felépülő rendszereket. Precízen, tökéletességre törekedve ugyanakkor kreatívan megoldani a feladatokat.",
         "contactButton": "Lépjünk kapcsolatba!",
         "cvButton": "Töltsd le az önéletrajzom!"
     },
     "aboutInfo": {
         "title": "Még néhány infó rólam",
         "firstInfoTitle": "1. A gitáros",
-        "firstInfoContent": "<p>A zene gyerekkorom óta szerves része az életemnek. Tizenhárom éves korom óta gitározom, ami egy örök szerelem.</p><p>A Kőbányai Zenei Stúdióban végeztem, mint hivatásos gitáros. Óriási megtiszteltetés volt olyan magyar zenei ikonokkal együtt zenélni, mint Póka Egon, Babos Gyula vagy Vörös István.</p><p>A következő oldalon többet is megtudhatsz zenei karrieremről: <a href='https://theguitarist.thomashorvath.hu' target='_blank'> TheGuitarist.ThomasHorvath.hu</a></p>",
+        "firstInfoContent": "<p>A zene gyerekkorom óta szerves része az életemnek. Tizenhárom éves korom óta gitározom, ami egy örök szerelem.</p><p>A Kőbányai Zenei Stúdióban végeztem, mint hivatásos gitáros. Óriási megtiszteltetés volt olyan magyar zenei ikonokkal együtt zenélni, mint Póka Egon, Babos Gyula vagy Vörös István.</p><p>A következő oldalon többet is megtudhatsz zenei karrieremről: <a href='https://theguitarist.thomashorvath.hu' target='_blank'> theguitarist.thomashorvath.hu</a></p>",
         "secundInfoTitle": "2. Az informatikus",
         "secundInfoContent": "<p>A számítógépek világa már gyermekkoromban lenyűgözött, amikor még az MS-DOS és a Commodore 64 uralkodott.</p><p>Bár inkább a zenei irányba fordultam, a COVID-19 megjelenése radikálisan átformálta az életem. A zene háttérbe szorult viszont egy remek lehetőségel élve elkezdtem informatikát tanulni. Ez ugyanazt a lelkesedést ébresztette bennem, mint mikor a zenével kezdtem foglalkozni.</p>",
-        "thirdInfoTitle": "3. A Hobbik",
+        "thirdInfoTitle": "3. A problémamegoldó",
         "thirdInfoContent": "<p>Szabadidőmben is szeretek alkotni. Szívesen barkácsolok, és megoldom a házkörül felmerülő problémákat, legyen az festés, villany vagy autószerelés.</p><p>Örömmel vetem bele magam az új dolgok elsajátításába. Szeretek kirándulni, olvasni, zenét hallgatni, gitározni valamint tanulni.</p>",
-        "forthInfoTitle": "4. A sport",
+        "forthInfoTitle": "4. Sport",
         "forthInfoContent": "<p>Az fitness és a testépítés mindig is ámulattal töltött el. Tinédzserként lelkesen jártam az edzőterembe, bár a munka világába lépve már kevésbé tudok időt szakítani a rendszeres edzésekre. Terveim között szerepel, hogy újra elkezdjek sportolni.</p><p>Legnagyobb inspirációm Arnold Schwarzenegger.</p>",
-        "fifthInfoTitle": "5. A személyiség",
+        "fifthInfoTitle": "5. Hivatástudat",
         "fifthInfoContent": "<p>Számíthatsz rá, hogy minden helyzetben megbízhatóan és precízen végzem el a feladataimat.</p><p>Kitartó vagyok az elérni kívánt célokért, miközben könnyen alkalmazkodom az új helyzetekhez és képes vagyok hatékonyan együttműködni másokkal.</p>"
     },
     "quote": "\"Ne csak dolgozz, alkoss is valamit. Az igazi siker abban rejlik, ha szereted, amit csinálsz.\"",
@@ -47,88 +48,122 @@
         "frontEndSkills": [
             {
                 "name": "HTML 5",
-                "icon": "htmlIcon"
+                "icon": "htmlIcon",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
             },
             {
                 "name": "CSS 3",
-                "icon": "cssIcon"
+                "icon": "cssIcon",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
             },
             {
                 "name": "Javascript",
-                "icon": "jsIcon"
+                "icon": "jsIcon",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             },
             {
                 "name": "Sass",
-                "icon": "sassIcon"
+                "icon": "sassIcon",
+                "link": "https://sass-lang.com/"
             },
             {
                 "name": "React",
-                "icon": "reactIcon"
+                "icon": "reactIcon",
+                "link": "https://react.dev/"
             },
             {
                 "name": "Bootstrap",
-                "icon": "bootstrapIcon"
+                "icon": "bootstrapIcon",
+                "link": "https://getbootstrap.com/"
             }
         ],
         "backEndTitle": "Back-End",
         "backEndSkills": [
             {
                 "name": "Node js",
-                "icon": "nodejsIcon"
-            },
-            {
-                "name": "Python",
-                "icon": "pythonIcon"
+                "icon": "nodejsIcon",
+                "link": "https://nodejs.org/en"
             },
             {
                 "name": "Express",
-                "icon": "expressIcon"
+                "icon": "expressIcon",
+                "link": "https://expressjs.com/"
+            },
+            {
+                "name": "Python",
+                "icon": "pythonIcon",
+                "link": "https://www.python.org/"
             },
             {
                 "name": "Django",
-                "icon": "djangoIcon"
+                "icon": "djangoIcon",
+                "link": "https://www.djangoproject.com/"
+            },
+            {
+                "name": "PHP",
+                "icon": "phpIcon",
+                "link": "https://www.php.net/"
+            },
+            {
+                "name": "Laravel",
+                "icon": "laravelIcon",
+                "link": "https://laravel.com/"
             }
         ],
         "databaseTitle": "Adatbázisok",
         "databaseSkills": [
             {
                 "name": "MsSql",
-                "icon": "mssqlIcon"
+                "icon": "mssqlIcon",
+                "link": "https://www.microsoft.com/en-us/sql-server"
             },
             {
                 "name": "Mysql",
-                "icon": "mysqlIcon"
+                "icon": "mysqlIcon",
+                "link": "https://www.mysql.com/"
+            },
+            {
+                "name": "SQLite",
+                "icon": "sqliteIcon",
+                "link": "https://www.sqlite.org/"
             },
             {
                 "name": "MongoDb",
-                "icon": "mongodbIcon"
+                "icon": "mongodbIcon",
+                "link": "https://www.mongodb.com/"
             }
         ],
         "otherTitle": "Egyéb",
         "otherSkills": [
             {
                 "name": "Git",
-                "icon": "gitIcon"
+                "icon": "gitIcon",
+                "link": "https://git-scm.com/"
             },
             {
                 "name": "Github",
-                "icon": "githubIcon"
+                "icon": "githubIcon",
+                "link": "https://github.com/"
             },
             {
                 "name": "Figma",
-                "icon": "figmaIcon"
+                "icon": "figmaIcon",
+                "link": "https://www.figma.com"
             },
             {
                 "name": "VsCode",
-                "icon": "vscodeIcon"
+                "icon": "vscodeIcon",
+                "link": "https://code.visualstudio.com/"
             },
             {
                 "name": "Linux",
-                "icon": "linuxIcon"
+                "icon": "linuxIcon",
+                "link": "https://ubuntu.hu/"
             },
             {
                 "name": "Docker",
-                "icon": "docker"
+                "icon": "docker",
+                "link": "https://www.docker.com/"
             }
         ]
     },
@@ -155,14 +190,14 @@
     },
     "mainBlogPage": {
         "headingTitle": "Blog",
-        "subHeading": "Néhány gondolatom",
+        "subHeading": "Webfejlesztés kisokos",
         "blogContent1": {
             "cardtitle": "1. Html a gyakorlatban",
             "imageSrc": "/blog_img/HTML.svg",
             "imageAlt": "html blog kép",
             "description": "Kezdjük azzal, hogy mi is az a HTML nyelv....",
             "link": "/blog/1",
-            "buttonText": "Tovább.."
+            "buttonText": "Tovább..."
         },
         "blogContent2": {
             "cardtitle": "2. A CSS varázslat",
@@ -170,7 +205,7 @@
             "imageAlt": "css blog kép",
             "description": "A css a modern weboldal megjelenítésének varázslatos eszköze...",
             "link": "/blog/2",
-            "buttonText": "Tovább.."
+            "buttonText": "Tovább..."
         },
         "blogContent3": {
             "cardtitle": "3. JavaScript",
@@ -178,7 +213,7 @@
             "imageAlt": "javascript blog kép",
             "description": "Mikor azt szeretnéd, hogy weboldalad interaktívan működjön...",
             "link": "/blog/3",
-            "buttonText": "Tovább.."
+            "buttonText": "Tovább..."
         },
         "blogContent4": {
             "cardtitle": "4. Vigyázz az adataidra",
@@ -186,7 +221,7 @@
             "imageAlt": "biztonság blog bejegyzés",
             "description": "Volt már úgy, hogy azt érezted figyelnek?...",
             "link": "/blog/4",
-            "buttonText": "Tovább.."
+            "buttonText": "Tovább..."
         }
     },
     "contactPageContent": {
@@ -429,7 +464,7 @@
             "id": 1,
             "type": "Weboldal",
             "title": "GitArt Próbaterem és Stúdió weboldala",
-            "cardDescription": "A Gitart Próbaterem és stúdió weboldala.",
+            "cardDescription": "GitArt",
             "popupDescription": [
                 "A projekt a GitArt próbaterem és stúdió weboldalát valósítja meg.",
                 "Az oldal funkciónálisan megvalósítja a ternmek online foglalását.",
@@ -464,7 +499,7 @@
             "id": 2,
             "type": "Weboldal",
             "title": "Electric Guitar Shop E-commerce Webshop",
-            "cardDescription": "Hangszerbolt webshop kliens oldlai front-end ",
+            "cardDescription": "EGS - webshop",
             "popupDescription": [
                 "A projekt az EGS hangszerbolt és webshop kliens oldali front-end megvalósítása.",
                 "Az oldal megvalósítja a termékek megjelenítését, rendelések leadását valamint a kosár kezelését.",
@@ -498,7 +533,7 @@
             "id": 3,
             "type": "Back-end",
             "title": "Electric Guitar Shop - Webshop szerver",
-            "cardDescription": "Hangszerbolt webshop szerver oldal",
+            "cardDescription": "EGS - Szerver",
             "popupDescription": [
                 "Az EGS hangszerbolt kliens és admin felületéhez tartozó szerver oldali megvalósítás.",
                 "Az oldal egy NodeJs Express szerverrel kezeli a bejövő kéréseket.",
@@ -530,7 +565,7 @@
             "id": 4,
             "type": "Weboldal",
             "title": "Electric Guitar Shop Webshop - Admin felület",
-            "cardDescription": "Hangszerbolt webshop admin felülete",
+            "cardDescription": "EGS - admin panel",
             "popupDescription": [
                 "Az Electric Guitar Shop - Webshop adminisztrációs felülete, ahol az admin jogokkal rendelkező felhasználók belépés után kezelheteik a hangszerbolt adatait.",
                 "Az általános forgalmi adatok megjelenítése mellet az adminok kezelhetik a termékek részletes adatit, frissíthetik azokat valamint létrehozhatnak és törölhetnek termékeket.",
@@ -568,7 +603,7 @@
             "id": 5,
             "type": "Adatbázis",
             "title": "MS Sql - EGS webshop adatbázisa",
-            "cardDescription": "Ez Electric Guitar Shop - webshop MsSql szerver adatbázisa",
+            "cardDescription": "EGS - MsSql adatbázisa",
             "popupDescription": [
                 "Microsoft SQL Server 2022 adatbázis szerveren, a harmadik normál formáig tervezett relációs adatbázis.",
                 "Funkcionalitásban a felhasználók, termékek és rendelések adatainak tárolása volt a cél.",
@@ -595,8 +630,8 @@
         {
             "id": 6,
             "type": "Weboldal",
-            "title": "Thomas Coffee Corner - kávézó weboldala",
-            "cardDescription": "Thomas Coffee Corner - kávézó weboldala",
+            "title": "Thomas Coffee Corner",
+            "cardDescription": "Thomas Coffee Corner",
             "popupDescription": [
                 "Egy fiktív kávézó frontend megvalósítása html, css és javascript segítségével.",
                 " A projektben megvalósult a temrmékek megjelenítése és szűrése valamint egy termék keresési funkció is."
@@ -627,8 +662,8 @@
         {
             "id": 7,
             "type": "Back-end",
-            "title": "GitArt Próbaterem és Stúdió szerver" ,
-            "cardDescription": "A Gitart Próbaterem és stúdió szerver oldali megvalósítása.",
+            "title": "GitArt Próbaterem és Stúdió szerver",
+            "cardDescription": "GitArt - szerver",
             "popupDescription": [
                 "A projekt a GitArt próbaterem és stúdió weboldal szerver oldali része.",
                 "A project egy Nodejs Express szerverrel valósul meg.",
@@ -660,7 +695,7 @@
             "id": 8,
             "type": "Weboldal",
             "title": "Csibi Róbert Bőrdíszműves weboldala",
-            "cardDescription": "Egy bőrdíszműves portfólió weboldala",
+            "cardDescription": "Bőrdíszműves portfolió",
             "popupDescription": [
                 "Csibi Róber bőrdíszműves weboldala. Az álltalános információk mellett képgaléria is megvalósításra került.",
                 "A képek egy modal ablakban nagyítva is megtekinthetőek."
@@ -691,7 +726,7 @@
             "id": 9,
             "type": "Adatbázis",
             "title": "MongoDb - EGS webshop adatbázisa",
-            "cardDescription": "Ez Electric Guitar Shop - webshop MongoDb szerver adatbázisa",
+            "cardDescription": "EGS - MongoDb adatbázisa",
             "popupDescription": [
                 "Ebben az adatbázisban a termékek, rendelések valamint a felhasználók kezelését valósítottam meg."
             ],
@@ -704,7 +739,6 @@
             "gallery": [
                 "/project_img/project_9/1.webp",
                 "/project_img/project_9/2.webp"
-               
             ],
             "imageAlt": "MongoDb adatbázis",
             "downloadDocs_title": "Töltsd le a dokumentációt",
@@ -718,7 +752,7 @@
             "id": 10,
             "type": "Weboldal",
             "title": "Számológép applikáció",
-            "cardDescription": "Egy számológép applikáció megvalósítása",
+            "cardDescription": "Számológép",
             "popupDescription": [
                 "Számológép applikáció html, css és javascript megvalósítása.",
                 "A projektben egy régi és egy modern stílusú user interfacen is használható a szolgáltatás."
@@ -745,7 +779,7 @@
             "id": 11,
             "type": "Adatbázis",
             "title": "MongoDb - Gitart Próbaterem és Stúdio adatbázisa",
-            "cardDescription": "A Gitart Próbaterem és stúdió adatbázisa",
+            "cardDescription": "GitArt - MongoDb adatbázis",
             "popupDescription": [
                 "A projekt a GitArt próbaterem és stúdió weboldal szerver oldali adatbázisa.",
                 "Tároljuk afelhasználók adatait valamint a próbaterem foglalások adatait",
@@ -769,10 +803,5 @@
             "popupTehnologies": "A felhasznált technikák:",
             "popupProjectType": "A projekt típusa:"
         }
-       
-          
-          
-          
-          
     ]
 }

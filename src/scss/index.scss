@@ -21,8 +21,10 @@ body {
     color: $text-color-gray;
     min-width: 350px;
     overflow-x: hidden;
-
+    position: relative;
 }
+
+
 
 li {
     list-style: none;
@@ -31,6 +33,52 @@ li {
 img {
     width: 100%;
 }
+
+
+
+@keyframes moveBlob {
+    0% {
+        transform: translate(150%, 0) rotate(-90deg);
+        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+
+    50% {
+        transform: translate(40%, -10%) rotate(-10deg);
+        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
+
+    75% {
+        transform: translate(70%, -60%) rotate(90deg);
+        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
+
+    100% {
+        transform: translate(150%, 0) rotate(-90deg);
+        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+}
+
+.blob {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background: linear-gradient(0deg, rgba(24,148,240,1) 0%, rgba(8,17,96,1) 100%);
+    transform: translate(110%, 0) rotate(-90deg);
+    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    // animation: moveBlob 25s infinite normal;
+    animation-name: moveBlob;
+    animation-duration: 25s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  
+    filter: blur(10vh);
+    z-index: -1;
+}
+
 
 /*  Buttons */
 %btn-attributs {
@@ -69,7 +117,7 @@ img {
     }
 
     &:hover {
-       opacity: 1;
+        opacity: 1;
         border: 2px solid $main-color;
         box-shadow: none;
 
@@ -85,10 +133,6 @@ img {
             color: $bg-dark-light;
             background: $main-color;
         }
-
-        &:hover::after {
-            display: none;
-        }
     }
 
     .btn:active {
@@ -96,9 +140,6 @@ img {
         box-shadow: none;
         background: $main-color;
         color: $btn-color-dark;
-        &::after {
-            display: none;
-        }
     }
 }
 
@@ -117,6 +158,7 @@ img {
         opacity: 1;
         border: 2px solid $main-color;
         box-shadow: none;
+        background-color: rgba($main-color-2 , .1);
     }
 }
 
@@ -130,48 +172,6 @@ img {
         gap: .3rem;
     }
 }
-
-
-
-
-
-%btn-after-attributes {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    transform-origin: center;
-    transform: scale(0);
-    border-radius: .25rem;
-    transition: .3s;
-}
-
-// .btn::after {
-//     @extend %btn-after-attributes;
-//     background: #242424;
-// }
-
-// .btn-secund::after {
-//     @extend %btn-after-attributes;
-//     background: #242424;
-
-// }
-
-.btn:hover::after {
-    transform: scale(1);
-    box-shadow: 0 0 11px 4px $main-color-55;
-}
-
-
-
-.btn-secund:hover::after {
-    transform: scale(1);
-    box-shadow: 0 0 11px 4px $main-color-55;
-}
-
 
 
 
@@ -197,12 +197,10 @@ img {
 }
 
 .btn:active {
-    transform: scale(.9);
+    transform: scale(.95);
 }
 
-section {
-    padding-top: 3rem;
-}
+
 
 
 //* touch sreen    - ne ugráljun a háttér ha ráklikkelünk  

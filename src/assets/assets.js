@@ -22,11 +22,14 @@ import nodejsIcon from './icons/skills_icon/node-js.png';
 import pythonIcon from './icons/skills_icon/python.svg';
 import expressIcon from './icons/skills_icon/express.svg';
 import djangoIcon from './icons/skills_icon/django.png';
+import phpIcon from './icons/skills_icon/php.svg';
+import laravelIcon from './icons/skills_icon/laravel.svg';
 
 // Adatbázis ikonok
 import mssqlIcon from './icons/skills_icon/sqlserver.svg';
 import mysqlIcon from './icons/skills_icon/mysql.png';
 import mongodbIcon from './icons/skills_icon/mongodb.svg';
+import sqliteIcon from './icons/skills_icon/sqlite.svg';
 
 // Egyéb ikonok
 import gitIcon from './icons/skills_icon/git.svg';
@@ -78,7 +81,10 @@ export const icons = {
   vscodeIcon,
   linuxIcon,
   angular,
-  docker
+  docker,
+  laravelIcon,
+  phpIcon,
+  sqliteIcon,
 }
 
 export const categoryMap = {

@@ -12,7 +12,7 @@
     justify-content: space-between;
     border-top: 1px solid $main-color-6;
 
-    gap: 1rem;
+
 
     img {
         width: 30px;
@@ -31,19 +31,20 @@
         flex-direction: column;
         text-align: center;
         padding: 0 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
 
         a {
             display: inline-block;
-            color: $text-color-light;
-            font-size: 1.3rem;
+            color: $main-color;
+            opacity: .8;
+            font-size: 1.1rem;
             padding: .5rem 1rem;
             transition: opacity .3s ease , text-decoration .3s ease;
         }
 
         a:hover {
             text-decoration: underline;
-            opacity: .8;
+            opacity: 1;
         }
     }
 
@@ -59,6 +60,7 @@
     flex-direction: column;
     justify-content: center;
     font-size: .8rem;
+    letter-spacing: 1.1px;
 }
 
 .footer-linear{
@@ -84,8 +86,8 @@
     .soc-icon {
         display: flex;
         align-items: center;
-        font-size: 3rem;
-        color: $main-color-55;
+        font-size: 2rem;
+        color: $main-color-6;
         padding: .8rem;
         transition: color 0.5s ease;
     }

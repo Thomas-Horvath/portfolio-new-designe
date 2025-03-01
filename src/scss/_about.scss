@@ -1,82 +1,92 @@
-// .about {
-//     margin-top: 1rem;
-// }
-
+.about {
+    margin-top: 3rem;
+    padding-top: 1rem;
+}
 
 .about-container {
     display: grid;
-    grid-template-columns: 1fr ;
-    // margin-top: 1rem;
+    grid-template-columns: 1fr;
     overflow: hidden;
     grid-template-areas:
-    'aboutLeft'
-     'aboutRight'
-     'btnGroup'
-    'waveYellowReverse '
-    'moreInfo ';
+        'aboutLeft'
+        'aboutRight'
+        'btnGroup'
+        'waveYellowReverse '
+        'moreInfo ';
 }
 
 .btn-group {
     grid-area: btnGroup;
 }
-.more-info-container {
-    grid-area: moreInfo;
-}
+
+
 
 .about-left {
     grid-area: aboutLeft;
     padding: 2rem;
-    display: flex;
-    justify-content: center;
     z-index: 0;
+    margin-bottom: 2rem;
+
+    .about-img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+       
+        
+        
+        img {
+            background: $main-color-2;
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            max-height: 500px;
+            z-index: 1;
+            border: $border-3;
+            border-radius: 2px;
+            object-fit:cover;
+        }
+    }
 }
-
-
-
-.about-left img {
-    width: 300px;
-    height: 300px;
-    z-index: 1;
-    background: #222;
-    
-    border: $border;
-    border-radius: 2px;
-    object-fit: cover;
-    margin-top: 3rem;
-}
-
 
 
 .about-right {
     grid-area: aboutRight;
     overflow: hidden;
+
     .about-section {
         padding: 1rem;
     }
+
     strong {
         color: $main-color;
         font-size: 1.1rem;
     }
+
     h3 {
-        font-size:1.1rem ;
+        font-size: 1.3rem;
         color: $main-color;
-     
+
     }
 
     p {
+        color: $main-color-6;
         margin: 1.5rem 0;
         font-size: 1.1rem;
         line-height: 1.4rem;
         letter-spacing: 1px;
     }
 }
+
 .btn-group {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin: 6rem 0 3rem;
-    .about-btn, .btn-secund {
+    margin: 2rem 0 3rem;
+
+    .about-btn,
+    .btn-secund {
         width: 80%;
     }
 }

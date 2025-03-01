@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { icons } from '../../assets/assets'; // Importáld az ikonokat
+import {Link} from 'react-router-dom';
+ import { icons } from '../../assets/assets'; // Importáld az ikonokat
 import { LanguageContext } from '../../contexts/LanguageContext';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -30,7 +31,7 @@ const Skills = () => {
           <div className="skills-icon-container">
             {translations.skills.frontEndSkills.map((skill) => (
               <div key={skill.name} className="skill-icon-container">
-                <img src={icons[skill.icon]} alt={`${skill.name} logo`} />
+                <Link to={skill.link} target='_blank'><img src={icons[skill.icon]} alt={`${skill.name} logo`} /></Link>
                 <p>{skill.name}</p>
               </div>
             ))}
@@ -42,7 +43,7 @@ const Skills = () => {
           <div className="skills-icon-container">
             {translations.skills.backEndSkills.map((skill) => (
               <div key={skill.name} className="skill-icon-container">
-                <img src={icons[skill.icon]} alt={`${skill.name} logo`} />
+              <Link to={skill.link} target='_blank'><img src={icons[skill.icon]} alt={`${skill.name} logo`} /></Link>
                 <p>{skill.name}</p>
               </div>
             ))}
@@ -54,7 +55,7 @@ const Skills = () => {
           <div className="skills-icon-container">
             {translations.skills.databaseSkills.map((skill) => (
               <div key={skill.name} className="skill-icon-container">
-                <img src={icons[skill.icon]} alt={`${skill.name} logo`} />
+              <Link to={skill.link} target='_blank'><img src={icons[skill.icon]} alt={`${skill.name} logo`} /></Link>
                 <p>{skill.name}</p>
               </div>
             ))}
@@ -66,7 +67,7 @@ const Skills = () => {
           <div className="skills-icon-container">
             {translations.skills.otherSkills.map((skill) => (
               <div key={skill.name} className="skill-icon-container">
-                <img src={icons[skill.icon]} alt={`${skill.name} logo`} />
+              <Link to={skill.link} target='_blank'><img src={icons[skill.icon]} alt={`${skill.name} logo`} /></Link>
                 <p>{skill.name}</p>
               </div>
             ))}

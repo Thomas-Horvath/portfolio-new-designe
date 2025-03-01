@@ -1,30 +1,22 @@
-import React, { useContext, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { LanguageContext } from '../../contexts/LanguageContext';
+import { BsArrowRightCircle } from "react-icons/bs";
+
 
 const ProjectCard = ({ data }) => {
-    const { translations } = useContext(LanguageContext);
-    const [isTouched, setIsTouched] = useState(false);
 
-    const handleTouch = () => {
-        setIsTouched(!isTouched);
-    };
 
     return (
-        <div
-            className={`project-card ${isTouched ? 'touched' : ''}`}
-            onClick={handleTouch}
-            onMouseLeave={() => setIsTouched(false)}
-        >
+        <Link to={`/projects/${data.id}`} className="project-card">
             <div className="after-img"></div>
             <img src={`${process.env.PUBLIC_URL}${data.imageSrc}`} alt={data.imageAlt} />
-            <div className="project-card-content">
-                <h2 className="project-card-title">{data.title}</h2>
-                <Link to={`/projects/${data.id}`} className="project-card-button">
-                    {translations.projectCard.buttonDetails}
-                </Link>
-            </div>
-        </div>
+            <div className="icon"><BsArrowRightCircle /></div>
+            <div className="project-card-content"></div>
+                <div className="card-text">
+                    <p className="title">{data.cardDescription}</p>
+                    <p className='type'> {data.type}</p>
+                </div>
+        </Link>
     );
 }
 

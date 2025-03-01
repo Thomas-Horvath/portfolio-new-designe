@@ -1,8 +1,11 @@
 .contact {
-    padding: 3rem 1rem;
+    padding: 1rem 1rem 3rem 1rem;
+    margin-top: 5rem;
     position: relative;
 
+
     .contact-container {
+        margin-top: 2rem;
         padding-top: 2rem;
 
         .icon-container {
@@ -53,19 +56,17 @@
 }
 
 .contact-title {
-    color: $white-100;
+    color: $main-color;
     text-transform: capitalize;
-
-    font-size: clamp(1.875rem, 4vw, 2.1875rem);
+    font-size: clamp(1.2rem, 4vw, 2rem);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .contact-subtitle {
-    color: $gray-100;
-
-    font-size: clamp(0.875rem, 4vw, 1rem);
+    color: $main-color-6;
+    font-size: clamp(0.5rem, 4vw, 1.2rem);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -100,7 +101,7 @@
     padding-inline: 5px;
     text-transform: capitalize;
     transition: all .3s ease;
-    color: $text-color-light;
+    color: $main-color-6;
     font-size: clamp(0.875rem, 4vw, 1rem);
     font-style: normal;
     font-weight: 500;
@@ -118,18 +119,18 @@
 
 .input-primary {
     outline: none;
-    // border: 3px solid $main-color;
     border: $border;
-    border-width: 1.6px;
+    border-width: 2px;
     border-radius: .25rem;
     height: 50px;
     font-family: Arial, sans-serif;
     font-size: calc(1rem *1.1);
-    color: $white-100;
+    color: $main-color;
     padding-inline: 5px;
     padding-left: 10px;
     background-color: transparent;
     transition: background .3s ease;
+    font-family: $font-family-chill;
 }
 
 textarea.form-input {
@@ -140,7 +141,7 @@ textarea.form-input {
 
 .form-status-box {
     height: 1.1rem;
-    color: $gray-100;
+    color: $main-color;
 }
 
 .form-status-box p {

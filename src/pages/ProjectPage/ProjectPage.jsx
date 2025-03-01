@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext , useRef } from 'react';
 import { LanguageContext } from '../../contexts/LanguageContext';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import { img, categoryMap } from '../../assets/assets.js';
+import { categoryMap } from '../../assets/assets.js';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -69,9 +69,8 @@ const ProjectPage = () => {
 
 
   return (
-    <section className="portfolio section-link project-page" id="projects" >
-      {/* <img src={img.wave_reverse} alt="fekete fordított hullám háttér" className="wave-reverse" /> */}
-      <div className="portfolio-wrapper"  data-observe ref={projectsRef}>
+    <section className="portfolio section-link project-page" id="projects" data-observe>
+      <div className="portfolio-wrapper" ref={projectsRef}>
         <motion.div
           className="main-heading"
           ref={ref1}
