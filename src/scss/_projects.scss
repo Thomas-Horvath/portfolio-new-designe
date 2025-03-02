@@ -140,7 +140,7 @@
     }
 
     .title {
-        font-size: 1rem;
+        font-size: .7rem;
         font-weight: 300;
         letter-spacing: 1.5px;
         text-transform: capitalize;
@@ -151,7 +151,7 @@
     .type {
         font-size: .7rem;
         letter-spacing: 1.5px;
-        text-transform: uppercase;
+        text-transform: capitalize;
         color: $main-color;
         font-family: $font-family-satoshi;
     }

@@ -104,7 +104,6 @@ const Home = () => {
           animate="visible"
           variants={animationVariantsBottom}
           transition={{ duration: 0.6 }}
-
         >
           <HashLink to="/#contact" className="btn home-btn">
             <FaPaperPlane />{translations.home.buttonText}

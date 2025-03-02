@@ -16,13 +16,12 @@
             padding: .7rem 1rem;
         }
 
-        .title {
-            font-size: 1.1rem;
-        }
-
+        .title,
         .type {
             font-size: .8rem;
         }
+
+
 
         .icon {
             svg {
@@ -113,7 +112,14 @@
         }
     }
 
+    .project-card {
 
+
+        .title,
+        .type {
+            font-size: .9rem;
+        }
+    }
 
     .project-grid {
         display: grid;
@@ -460,14 +466,15 @@
             padding: .7rem 2rem;
         }
 
-        .title {
-            font-size: 1.3rem;
-        }
 
+
+
+        .title,
         .type {
-            font-size: .9rem;
+            font-size: 1.1rem;
         }
     }
+
 
     .project-detail {
         flex-direction: row;
@@ -569,14 +576,14 @@
 
 
         .about-img {
-            padding: 1rem  4rem;
+            padding: 1rem 4rem;
             display: flex;
-            justify-content: center; 
+            justify-content: center;
 
-          img {
-            max-width: 600px;
-            max-height: 600px;
-          }
+            img {
+                max-width: 600px;
+                max-height: 600px;
+            }
         }
     }
 

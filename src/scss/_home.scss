@@ -9,7 +9,7 @@
     height: 100vh;
     position: relative;
     padding-bottom: 4rem;
-    z-index: -2;
+  
 
 
     h1 {
@@ -54,6 +54,8 @@
     //     }
     // }
 
+
+
     .content-container {
         width: 100%;
         display: flex;
@@ -92,6 +94,26 @@
 
     &-btn {
         position: relative;
+    }
+    
+    .home-down-arrow {
+        position: absolute;
+        bottom: 1rem;
+        height: 2.5rem;
+        width: 1.7rem;
+        border: $border;
+        border-color: $main-color-2;
+        border-radius: 30px;
+        padding-top: .2rem;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    
+        svg {
+            color: $main-color-6;
+            font-size: 1.5rem;
+            animation: moving_arrow 2s infinite ease-in-out;
+        }
     }
 }
 
@@ -139,22 +161,3 @@
     }
 }
 
-.home-down-arrow {
-    position: absolute;
-    bottom: 1rem;
-    height: 2.5rem;
-    width: 1.7rem;
-    border: $border;
-    border-color: $main-color-2;
-    border-radius: 30px;
-    padding-top: .2rem;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-
-    svg {
-        color: $main-color-6;
-        font-size: 1.5rem;
-        animation: moving_arrow 2s infinite ease-in-out;
-    }
-}
