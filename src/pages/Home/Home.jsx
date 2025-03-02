@@ -1,18 +1,46 @@
 
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { LanguageContext } from '../../contexts/LanguageContext';
 import { motion } from 'framer-motion';
 import { FaFacebook, FaLinkedin, FaGithub, FaPaperPlane } from "react-icons/fa";
 import { BsArrowDownShort } from "react-icons/bs";
-import ScrollingText from '../../components/ScrollText/ScrollText';
+
 
 const Home = () => {
   const { translations } = useContext(LanguageContext);
 
+  
+  
+  useEffect(() => {
+    const scrollers = document.querySelectorAll(".scroller");
+    // If a user hasn't opted in for recuded motion, then we add the animation
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation();
+    }
 
+    function addAnimation() {
+      scrollers.forEach((scroller) => {
+        // add data-animated="true" to every `.scroller` on the page
+        scroller.setAttribute("data-animated", true);
 
+        // Make an array from the elements within `.scroller-inner`
+        const scrollerInner = scroller.querySelector(".scroller__inner");
+        const scrollerContent = Array.from(scrollerInner.children);
+
+        // For each item in the array, clone it
+        // add aria-hidden to it
+        // add it into the `.scroller-inner`
+        scrollerContent.forEach((item) => {
+          const duplicatedItem = item.cloneNode(true);
+          duplicatedItem.setAttribute("aria-hidden", true);
+          scrollerInner.appendChild(duplicatedItem);
+        });
+      });
+    }
+
+  }, [])
 
 
 
@@ -110,9 +138,18 @@ const Home = () => {
           </HashLink>
         </motion.div>
 
-
-        {/* <ScrollingText /> */}
-
+        <div className="scroller" data-speed="fast">
+          <ul className="tag-list scroller__inner">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>React</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>Python</li>
+            <li>UI/UX</li>
+          </ul>
+        </div>
 
         <div className="home-social-media">
           <Link
