@@ -1,6 +1,6 @@
 
-import React, { useContext, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useContext, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { LanguageContext } from '../../contexts/LanguageContext';
 import { motion } from 'framer-motion';
@@ -10,28 +10,25 @@ import { BsArrowDownShort } from "react-icons/bs";
 
 const Home = () => {
   const { translations } = useContext(LanguageContext);
+  const location = useLocation();
+  const [isLoaded, setIsLoaded] = useState(false);
 
-  
-  
+
   useEffect(() => {
     const scrollers = document.querySelectorAll(".scroller");
-    // If a user hasn't opted in for recuded motion, then we add the animation
+
     if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       addAnimation();
     }
 
     function addAnimation() {
       scrollers.forEach((scroller) => {
-        // add data-animated="true" to every `.scroller` on the page
         scroller.setAttribute("data-animated", true);
 
-        // Make an array from the elements within `.scroller-inner`
+
         const scrollerInner = scroller.querySelector(".scroller__inner");
         const scrollerContent = Array.from(scrollerInner.children);
 
-        // For each item in the array, clone it
-        // add aria-hidden to it
-        // add it into the `.scroller-inner`
         scrollerContent.forEach((item) => {
           const duplicatedItem = item.cloneNode(true);
           duplicatedItem.setAttribute("aria-hidden", true);
@@ -44,6 +41,16 @@ const Home = () => {
 
 
 
+
+  useEffect(() => {
+    setIsLoaded(false); // Animáció újraindítása navigációkor
+    const timer = setTimeout(() => setIsLoaded(true), 200);
+    return () => clearTimeout(timer);
+  }, [location.pathname]); // Figyeli az útvonal változását
+
+
+
+  
   // Animációs konfigurációk
   const animationVariants = {
     hidden: { opacity: 0, y: -100 },
@@ -70,9 +77,9 @@ const Home = () => {
       <section className="home section-link" id="home" data-observe>
         <motion.h1
           initial="hidden"
-          animate="visible"
+          animate={isLoaded ? "visible" : {}}
           variants={animationVariants}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8 }}
           className="home-title"
         >
           {translations.home.name}
@@ -81,16 +88,16 @@ const Home = () => {
         <motion.div
           className="content-container"
           initial="hidden"
-          animate="visible"
+          animate={isLoaded ? "visible" : {}}
           variants={animationVariantsLeft}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8 }}
         >
 
           <motion.p
             initial="hidden"
-            animate="visible"
+            animate={isLoaded ? "visible" : {}}
             variants={animationVariantsLeft}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.8 }}
             className="home-paragraph"
           >
             {translations.home.profession1}
@@ -98,9 +105,9 @@ const Home = () => {
 
           <motion.p
             initial="hidden"
-            animate="visible"
+            animate={isLoaded ? "visible" : {}}
             variants={animationVariantsLeft}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.8 }}
             className="home-paragraph"
           >
             &nbsp;-&nbsp;
@@ -108,9 +115,9 @@ const Home = () => {
 
           <motion.p
             initial="hidden"
-            animate="visible"
+            animate={isLoaded ? "visible" : {}}
             variants={animationVariantsLeft}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.8 }}
             className="home-paragraph"
           >
             {translations.home.profession2}
@@ -119,9 +126,9 @@ const Home = () => {
         </motion.div>
         <motion.h3
           initial="hidden"
-          animate="visible"
+          animate={isLoaded ? "visible" : {}}
           variants={animationVariantsRight}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8 }}
           className="home-subtitle"
         >
           {translations.home.subTitle}
@@ -129,16 +136,23 @@ const Home = () => {
 
         <motion.div
           initial="hidden"
-          animate="visible"
-          variants={animationVariantsBottom}
-          transition={{ duration: 0.6 }}
+          animate={isLoaded ? "visible" : {}}
+          variants={animationVariantsLeft}
+          transition={{ duration: 0.8 }}
         >
           <HashLink to="/#contact" className="btn home-btn">
             <FaPaperPlane />{translations.home.buttonText}
           </HashLink>
         </motion.div>
 
-        <div className="scroller" data-speed="fast">
+        <motion.div
+          className="scroller"
+          initial="hidden"
+          animate={isLoaded ? "visible" : {}}
+          variants={animationVariantsBottom}
+          transition={{ duration: 0.8 }}
+        >
+
           <ul className="tag-list scroller__inner">
             <li>HTML</li>
             <li>CSS</li>
@@ -148,8 +162,16 @@ const Home = () => {
             <li>Laravel</li>
             <li>Python</li>
             <li>UI/UX</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>React</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>Python</li>
+            <li>UI/UX</li>
           </ul>
-        </div>
+        </motion.div>
 
         <div className="home-social-media">
           <Link
@@ -177,7 +199,16 @@ const Home = () => {
             <FaGithub />
           </Link>
         </div>
-        <div className="home-down-arrow"><BsArrowDownShort /></div>
+
+        <motion.div
+          className="home-down-arrow"
+          initial="hidden"
+          animate={isLoaded ? "visible" : {}}
+          variants={animationVariantsBottom}
+          transition={{ duration: 0.8 }}>
+          <BsArrowDownShort />
+        </motion.div>
+
 
       </section>
 

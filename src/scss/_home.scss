@@ -1,11 +1,13 @@
+
+
+
 .scroller {
-    max-width: 350px;
+    max-width: 330px;
     position: absolute;
-    bottom: 3.8rem;
+    bottom: 10vh;
 }
 
 .scroller__inner {
-    // padding-block: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -13,51 +15,18 @@
 
 .scroller[data-animated="true"] {
     overflow: hidden;
-    -webkit-mask: linear-gradient(90deg,
-            transparent,
-            white 20%,
-            white 80%,
-            transparent);
     mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
 .scroller[data-animated="true"] .scroller__inner {
+    // will-change: transform;
     width: max-content;
     flex-wrap: nowrap;
-    animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+    animation: scroll 40s forwards linear infinite;
 }
 
-.scroller[data-direction="right"] {
-    --_animation-direction: reverse;
-}
 
-.scroller[data-direction="left"] {
-    --_animation-direction: forwards;
-}
 
-.scroller[data-speed="fast"] {
-    --_animation-duration: 50s;
-}
-
-.scroller[data-speed="slow"] {
-    --_animation-duration: 60s;
-}
-
-@keyframes scroll {
-    to {
-        transform: translate(calc(-50% - 0.5rem));
-    }
-}
-
-/* general styles */
-
-:root {
-    --clr-neutral-100: hsl(0, 0%, 100%);
-    --clr-primary-100: hsl(205, 15%, 58%);
-    --clr-primary-400: hsl(215, 25%, 27%);
-    --clr-primary-800: hsl(217, 33%, 17%);
-    --clr-primary-900: hsl(218, 33%, 9%);
-}
 
 .tag-list {
     margin: 0;
@@ -66,12 +35,13 @@
 }
 
 .tag-list li {
-    // padding: 1rem;
-    // background: var(--clr-primary-400);
-    color: $main-color;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
+    opacity: .7;
+    color: $main-color-6;
+    font-size: 1rem;
 }
+
+
+
 
 //*----------------------------------------------------------------
 
@@ -95,50 +65,19 @@
         font-weight: 400;
         letter-spacing: .1rem;
         line-height: 5rem;
-        margin: 6rem 0 1rem;
+        margin: 8rem 0 0 0;
         position: relative;
         opacity: 0;
-        color: $main-color-8;
+        color: $main-color-7;
         animation-delay: .2s;
     }
-
-
-
-
-
-
-    // .cursor {
-    //     display: inline-block;
-    //     width: 10px;          /* A kurzor szélessége */
-    //     height: 7rem;       /* A kurzor magassága (hozzáigazíthatod a szöveg méretéhez) */
-    //     background-color:$main-color-8; /* A kurzor színe */
-    //        /* Kis távolság a szövegtől */
-    //     animation: blink 1.4s step-end infinite; /* Villogó animáció */
-    //     margin-left: 1.2rem;
-    //     margin-bottom: -.5rem;
-
-    // }
-
-    // @keyframes blink {
-    //     0% {
-    //         opacity: 1; /* Látható */
-    //     }
-    //     50% {
-    //         opacity: 0; /* Eltűnik */
-    //     }
-    //     100% {
-    //         opacity: 1; /* Újra megjelenik */
-    //     }
-    // }
-
-
 
     .content-container {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 5rem;
+        margin-bottom: 4rem;
     }
 
     .home-paragraph {
@@ -158,8 +97,8 @@
     }
 
     h3 {
-        font-size: 1.4rem;
-        margin-bottom: 1.5rem;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
         font-family: $font-family-chill;
         font-weight: 400;
         letter-spacing: 1.5px;
@@ -172,7 +111,8 @@
 
     &-btn {
         position: relative;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
+        padding: .3rem 1rem;
     }
 
     .scrolling-text {
@@ -185,7 +125,7 @@
 
     .home-down-arrow {
         position: absolute;
-        bottom: 1rem;
+        bottom: .8rem;
         height: 2.5rem;
         width: 1.7rem;
         border: $border;
@@ -203,6 +143,9 @@
         }
     }
 }
+
+
+
 
 .home-social-media {
     position: absolute;
@@ -229,21 +172,5 @@
         opacity: 1;
         transform: rotate(12deg);
     }
-
-
-
 }
 
-@keyframes moving_arrow {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(10px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}

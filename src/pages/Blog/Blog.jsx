@@ -6,7 +6,6 @@ import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/m
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { img } from '../../assets/assets';
 import { LanguageContext } from '../../contexts/LanguageContext';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';

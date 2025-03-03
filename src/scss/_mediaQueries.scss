@@ -65,6 +65,11 @@
         }
     }
 
+    .scroller {
+        max-width: 500px;
+        bottom: 13vh;
+    }
+
     .main-heading {
         margin-top: 7rem;
 
@@ -165,7 +170,6 @@
 
     .footer-social-media {
         gap: 3rem;
-        // padding: 1rem;
     }
 
     .impresszum {
@@ -241,9 +245,10 @@
                 font-size: 1.4rem;
             }
         }
+    }
 
-
-
+    .scroller {
+        max-width: 700px;
     }
 
     .header {
@@ -557,13 +562,22 @@
         }
     }
 
+    .scroller {
+        max-width: 900px;
+    }
+
+    .tag-list li {
+        font-size: 1.4rem;
+    }
+
+
     .about-container {
         margin-top: 1rem;
         grid-template-columns: 1fr 1fr;
         overflow: hidden;
         grid-template-areas:
             'aboutLeft aboutRight'
-            'btnGroup aboutRight'
+            'btnGroup btnGroup'
             'moreInfo moreInfo';
     }
 
@@ -576,13 +590,13 @@
 
 
         .about-img {
-            padding: 1rem 4rem;
+            padding: 0.5rem 4rem;
             display: flex;
             justify-content: center;
 
             img {
-                max-width: 600px;
-                max-height: 600px;
+                max-width: 500px;
+                max-height: 500px;
             }
         }
     }
@@ -598,8 +612,8 @@
             margin-bottom: 0;
 
             h3 {
-                font-size: 1.8rem;
-                margin-bottom: 3rem;
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
             }
 
             p {
@@ -637,7 +651,7 @@
         grid-area: btnGroup;
         width: 700px;
         align-items: center;
-        justify-self: end;
+        justify-self: center;
         margin: 4rem 0 3rem;
     }
 

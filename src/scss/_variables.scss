@@ -20,6 +20,7 @@
 //! main colors  
 $main-color: #dac5a7;
 $main-color-8: #fee3bd;
+$main-color-7: rgba(218, 197, 167, .68);
 $main-color-6: rgba(218, 197, 167, .6);
 $main-color-blue: #1b7ce4;
 $main-color-darker: #f3a70f;
@@ -61,10 +62,10 @@ $box-shadow-card: 4px 4px 10px $black;
 $text-color-light: #ddd;
 $text-grey-light: #666;
 $text-color-gray: #a3a3a3;
-
+    
 
 //! linear gradient 
 $blog-linear: linear-gradient(135deg, $main-color-2, $main-color-2);
 $footer-linear: linear-gradient(135deg, $main-color-6 20%,  #11111166);
-$bg-linear-gradient: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, .75), rgb(17, 17, 17)80%), url(../assets/img/BG-gray.webp) center/cover;
+$bg-linear-gradient: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, .8), rgb(17, 17, 17)75%), url(../assets/img/BG-gray.webp) center/cover;
 $bg-linear-gradient-light: linear-gradient(rgba(255, 255, 255, .8), #fff), url(../assets/img/BG-gray.webp) center/cover;

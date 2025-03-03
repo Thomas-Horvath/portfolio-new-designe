@@ -45,7 +45,7 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-section">
-                        <h3>{translations.about.mainTitle}</h3>
+                        {/* <h3>{translations.about.mainTitle}</h3> */}
                         <p dangerouslySetInnerHTML={{ __html: translations.about.firstParagraph }} />
                         <p dangerouslySetInnerHTML={{ __html: translations.about.secundParagraph }} />
                         <p dangerouslySetInnerHTML={{ __html: translations.about.thirdParagraph }} />
