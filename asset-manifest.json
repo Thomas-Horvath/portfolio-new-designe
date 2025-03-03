@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-new-designe/static/css/main.9ebaafc1.css",
+    "main.css": "/portfolio-new-designe/static/css/main.30c02927.css",
     "main.js": "/portfolio-new-designe/static/js/main.b620b6a4.js",
     "static/media/portfolio-bg.webp": "/portfolio-new-designe/static/media/portfolio-bg.ecfd0a95d5401926635c.webp",
     "static/media/blog-bg.webp": "/portfolio-new-designe/static/media/blog-bg.d785df1cc1927ffef101.webp",
@@ -44,11 +44,11 @@
     "static/media/wave-yellow.svg": "/portfolio-new-designe/static/media/wave-yellow.478332cae3c5cd9f212a3a5e1afbe30d.svg",
     "static/media/wave.svg": "/portfolio-new-designe/static/media/wave.470cd8feb8ecd71c5c8a6c9486fdd459.svg",
     "static/media/wave_grey.svg": "/portfolio-new-designe/static/media/wave_grey.4950ef8f3d9322b0d09308c62af82a41.svg",
-    "main.9ebaafc1.css.map": "/portfolio-new-designe/static/css/main.9ebaafc1.css.map",
+    "main.30c02927.css.map": "/portfolio-new-designe/static/css/main.30c02927.css.map",
     "main.b620b6a4.js.map": "/portfolio-new-designe/static/js/main.b620b6a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ebaafc1.css",
+    "static/css/main.30c02927.css",
     "static/js/main.b620b6a4.js"
   ]
 }
