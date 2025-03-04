@@ -1588,6 +1588,7 @@ textarea.form-input {
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
   visibility: hidden;
   opacity: 0;
 }
@@ -1596,6 +1597,16 @@ textarea.form-input {
 }
 .scrollUp:hover svg {
   transform: translateY(-3px);
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
 }
 
 .impresszum {
@@ -1745,10 +1756,6 @@ textarea.form-input {
   }
   .main-heading span {
     font-size: 2.5rem;
-  }
-  .scrollUp {
-    visibility: visible;
-    opacity: 1;
   }
   .btn-group,
   .project-btn-group {
