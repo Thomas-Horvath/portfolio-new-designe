@@ -5,7 +5,8 @@ import en from '../data/en.json';
 export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-    const [language, setLanguage] = useState('hu');
+    const storedLanguage = localStorage.getItem('language') || 'hu';
+    const [language, setLanguage] = useState(storedLanguage);
     const [translations, setTranslations] = useState(hu);
 
     useEffect(() => {
@@ -19,6 +20,9 @@ export const LanguageProvider = ({ children }) => {
                 setTranslations(hu);
                 break;
         }
+
+        // Mentjük a választott nyelvet a localStorage-ba
+        localStorage.setItem('language', language);
     }, [language]);
 
     const switchLanguage = (lang) => {

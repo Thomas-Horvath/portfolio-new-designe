@@ -23,7 +23,7 @@
 
 .about-left {
     grid-area: aboutLeft;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
     z-index: 0;
     margin-bottom: .5rem;
 
@@ -32,6 +32,7 @@
         height: 100%;
         display: flex;
         justify-content: center;
+    
 
 
 
@@ -68,18 +69,12 @@
         font-size: 1.1rem;
     }
 
-    h3 {
-        font-size: 1.3rem;
-        color: $main-color;
-
-    }
-
     p {
         color: $main-color-6;
         margin: 1.5rem 0;
         font-size: 1.1rem;
-        line-height: 1.4rem;
-        letter-spacing: 1px;
+        line-height: 1.5rem;
+        letter-spacing: 1.5px;
     }
 }
 

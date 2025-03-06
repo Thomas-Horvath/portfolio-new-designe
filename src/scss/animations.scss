@@ -21,3 +21,26 @@
         transform: translateY(0);
     }
 };
+
+
+@keyframes moveBlob {
+    0% {
+        transform: translate(150%, 0) rotate(-90deg);
+        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+
+    50% {
+        transform: translate(40%, -10%) rotate(-10deg);
+        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
+
+    75% {
+        transform: translate(70%, -60%) rotate(90deg);
+        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
+
+    100% {
+        transform: translate(150%, 0) rotate(-90deg);
+        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+}

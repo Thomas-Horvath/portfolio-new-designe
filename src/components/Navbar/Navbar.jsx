@@ -12,7 +12,7 @@ const Navbar = ({ isOpen, toggleMenu }) => {
   const options = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.1 // Esetleg állíthatod, hogy milyen százalékban legyen látható a szekció
+    threshold: 0.25 // Esetleg állíthatod, hogy milyen százalékban legyen látható a szekció
   };
   const entries = useIntersectionObserver(options);
   const location = useLocation();
@@ -30,12 +30,13 @@ const Navbar = ({ isOpen, toggleMenu }) => {
   useEffect(() => {
     // Ellenőrzi az összes belépési eseményt
     const visibleEntries = entries.filter(entry => entry.isIntersecting);
+   
     if (visibleEntries.length > 0) {
       const firstVisible = visibleEntries[0].target.id;
       setActiveSection(`#${firstVisible}`);
-    }
+    
+    } 
   }, [entries]);
-
 
 
 
@@ -51,7 +52,7 @@ const Navbar = ({ isOpen, toggleMenu }) => {
     <nav className={`navbar ${isOpen ? 'open' : ''}`}>
       <img className="nav-logo-img" src={Logo} alt="arany színű logo" />
       <ul className="nav-links">
-        <li> 
+        <li>
           <HashLink
             className={`nav-link ${isActive('#home') ? 'active' : ''}`}
             to="/#"

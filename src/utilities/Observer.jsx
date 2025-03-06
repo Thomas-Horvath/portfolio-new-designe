@@ -11,6 +11,7 @@ const useIntersectionObserver = (options) => {
       setEntries(entryList);
     }, options);
 
+
     const elements = document.querySelectorAll('[data-observe]');
     elements.forEach(el => observer.observe(el));
 

@@ -27,15 +27,25 @@
 
 .contact-content {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
     gap: 1rem;
+
 }
 
 .contact-info-list {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    width: fit-content;
+    margin: 3rem auto;
+    gap: 3rem;
+
+}
+
+.form {
+    width: 100%;
+    flex: 1;
 }
 
 .icon-container {
@@ -74,16 +84,20 @@
 
 
 /* section right side - form */
+
+
 .form-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: .5rem;
+    max-width: 500px;
+    margin: auto;
 }
 
 .form-content {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: .5rem;
     flex-wrap: wrap;
 }
 
@@ -142,6 +156,7 @@ textarea.form-input {
 .form-status-box {
     height: 1.1rem;
     color: $main-color;
+    margin-bottom: 1rem;
 }
 
 .form-status-box p {
@@ -149,10 +164,24 @@ textarea.form-input {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: center;
+}
+
+.error-message {
+    font-size: .9rem;
+    height: 1.5rem;
+    color: $main-red;
+    display: block;
+    width: auto;
+    max-width: 100%;
 }
 
 .btn-contact {
     align-self: center;
     margin-bottom: 2rem;
 
+}
+
+.error-border {
+    border: 1px solid $main-red;
 }

@@ -37,27 +37,6 @@ img {
 
 
 
-@keyframes moveBlob {
-    0% {
-        transform: translate(150%, 0) rotate(-90deg);
-        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
-    }
-
-    50% {
-        transform: translate(40%, -10%) rotate(-10deg);
-        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
-    }
-
-    75% {
-        transform: translate(70%, -60%) rotate(90deg);
-        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
-    }
-
-    100% {
-        transform: translate(150%, 0) rotate(-90deg);
-        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
-    }
-}
 
 .blob {
     position: absolute;
@@ -66,7 +45,6 @@ img {
     background: linear-gradient(0deg, rgba(24,148,240,1) 0%, rgba(8,17,96,1) 100%);
     transform: translate(110%, 0) rotate(-90deg);
     border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
-    // animation: moveBlob 25s infinite normal;
     animation-name: moveBlob;
     animation-duration: 25s;
     animation-timing-function: ease;
@@ -75,7 +53,6 @@ img {
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running;
-  
     filter: blur(10vh);
     z-index: -1;
 }

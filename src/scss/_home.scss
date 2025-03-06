@@ -1,6 +1,3 @@
-
-
-
 .scroller {
     max-width: 330px;
     position: absolute;
@@ -60,15 +57,17 @@
 
 
     h1 {
-        font-size: 5.5rem;
-        font-family: $font-family-gam-i;
-        font-weight: 400;
-        letter-spacing: .1rem;
-        line-height: 5rem;
-        margin: 8rem 0 0 0;
+        font-size:4rem;
+        font-family: $font-family-chill;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing:.1rem;
+        line-height: 4.3rem;
+        margin: 8rem 0  1rem 0;
         position: relative;
         opacity: 0;
-        color: $main-color-7;
+        color: $main-color-5;
+       
         animation-delay: .2s;
     }
 
@@ -173,4 +172,3 @@
         transform: rotate(12deg);
     }
 }
-

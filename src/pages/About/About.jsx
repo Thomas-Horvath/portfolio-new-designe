@@ -28,7 +28,7 @@ const About = () => {
     return (
         <section className="about section-link" id="about" data-observe>
             <motion.div
-                className="main-heading about-main-heading hidden"
+                className="main-heading about-main-heading"
                 ref={ref1}
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: inView1 ? 1 : 0.8, opacity: inView1 ? 1 : 0 }}

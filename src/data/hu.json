@@ -20,7 +20,7 @@
         "mainTitle": "Engedd meg, hogy bemutatkozzam!",
         "firstParagraph": "<strong>Horváth Tamás</strong> vagyok, webfejlesztő, rendszergazda és adatbázis specialista. Modern, felhasználóbarát, reszponzív és innovatív weboldalakat és alkalmazásokat fejlesztek, tervezek és optimalizálok.",
         "secundParagraph": "Otthonosan mozgok a <strong>frontend</strong> és <strong>backend</strong> technológiák világában, beleértve a JavaScript, PHP, Python, SQL és NoSQL adatbázisok használatát. <strong>Full-stack</strong> fejlesztőként komplex digitális megoldásokat alkotok, a látványos felületektől a stabil, hatékony szerveroldali rendszerekig.",
-        "thirdParagraph": "Az „Újratervezés” program keretében <strong>2022 tavaszán</strong> részt vettem egy <strong>rendszerüzemeltetői</strong> képzésen, amely során elsajátítottam a számítástechnika és hálózatüzemeltetés alapjait, valamint a Windows és Linux rendszerek, a virtualizáció (Hyper-V, Docker) és a cloud platformok (Azure, Digital Ocean) kezelését.",
+        "thirdParagraph": "Az „Újratervezés” program keretében <strong>2022-ben </strong> részt vettem egy <strong>rendszerüzemeltetői</strong> képzésen, amely során elsajátítottam a számítástechnika és hálózatüzemeltetés alapjait, valamint a Windows és Linux rendszerek, a virtualizáció (Hyper-V, Docker) és a cloud platformok (Azure, Digital Ocean) kezelését.",
         "forthParagraph": "Ezt követően <strong>adatbázis specialista</strong> képzésen haladó szinten sajátítottam el az SQL nyelvet, valamint az MS SQL, MySQL és MongoDB adatbázisok tervezését, optimalizálását és üzemeltetését.",
         "fifthParagraph": "Folyamatos tanulás iránti elkötelezettségemnek köszönhetően, és mivel mindig a teljes képet szeretem látni, <strong>full-stack fejlesztő </strong>karrier felé vettem az irányt. A <strong>front-end fejlesztés</strong> haladó szintű elsajátítása mellett jelenlegi célom a back-end oldal megismerése, amellyel teljes rendszereket tudok majd megvalósítani a webfejlesztés platformján.",
         "sixthParagraph": "Szeretek alkotni és folyamatosan fejlődni. Precízen, kreatívan oldom meg a feladatokat.",
@@ -30,13 +30,13 @@
     "aboutInfo": {
         "title": "Még néhány infó rólam",
         "firstInfoTitle": "1. A gitáros",
-        "firstInfoContent": "<p>A zene gyerekkorom óta szerves része az életemnek. Tizenhárom éves korom óta gitározom, ami egy örök szerelem.</p><p>A Kőbányai Zenei Stúdióban végeztem, mint hivatásos gitáros. Óriási megtiszteltetés volt olyan magyar zenei ikonokkal együtt zenélni, mint Póka Egon, Babos Gyula vagy Vörös István.</p><p>A következő oldalon többet is megtudhatsz zenei karrieremről: <a href='https://theguitarist.thomashorvath.hu' target='_blank'> theguitarist.thomashorvath.hu</a></p>",
+        "firstInfoContent": "<p>A zene gyerekkorom óta meghatározó része az életemnek. Tizenhárom éves korom óta gitározom, ami azóta is egyfajta örök szerelem.</p><p>Hivatásos gitárosként a Kőbányai Zenei Stúdióban végeztem, ahol fantasztikus élmény volt olyan ikonikus zenészekkel együtt játszani, mint Póka Egon, Babos Gyula és Vörös István. Az ő tapasztalatuk és szenvedélyük hatalmas motivációt adott, és rengeteget tanultam tőlük – nemcsak a zenéről, hanem az elhivatottságról és a folyamatos fejlődés fontosságáról is.</p><p>A következő oldalon többet is megtudhatsz zenei karrieremről: <a href='https://theguitarist.thomashorvath.hu' target='_blank'> theguitarist.thomashorvath.hu</a></p>",
         "secundInfoTitle": "2. Az informatikus",
-        "secundInfoContent": "<p>A számítógépek világa már gyermekkoromban lenyűgözött, amikor még az MS-DOS és a Commodore 64 uralkodott.</p><p>Bár inkább a zenei irányba fordultam, a COVID-19 megjelenése radikálisan átformálta az életem. A zene háttérbe szorult viszont egy remek lehetőségel élve elkezdtem informatikát tanulni. Ez ugyanazt a lelkesedést ébresztette bennem, mint mikor a zenével kezdtem foglalkozni.</p>",
+        "secundInfoContent": "<p>A számítógépek világa már gyermekkoromban lenyűgözött: először a játékok és az internet varázsa ragadott magával, később pedig a kreatív alkotás – képszerkesztés, weboldalkészítés és zeneszerkesztés – révén egyre mélyebben megismertem a működésüket.<p>Az alkotás és a problémamegoldás mindig is fontos része volt az életemnek – először a zene világában, majd az informatika területén találtam meg ezt az izgalmat.</p><p>Amikor mélyebben belemerültem a programozásba és az adatbázisok világába, rájöttem, hogy ebben a szakmában ugyanazt a kreatív szabadságot élhetem meg, amit a zenében is kerestem. Az informatika nemcsak egy új irányt adott, hanem eszközt is arra, hogy folyamatosan fejlődjek, új dolgokat hozzak létre és maradandó értéket teremtsek.</p>",
         "thirdInfoTitle": "3. A problémamegoldó",
-        "thirdInfoContent": "<p>Szabadidőmben is szeretek alkotni. Szívesen barkácsolok, és megoldom a házkörül felmerülő problémákat, legyen az festés, villany vagy autószerelés.</p><p>Örömmel vetem bele magam az új dolgok elsajátításába. Szeretek kirándulni, olvasni, zenét hallgatni, gitározni valamint tanulni.</p>",
+        "thirdInfoContent": "<p>Szabadidőmben is keresem a kihívásokat. Legyen szó barkácsolásról, ház körüli problémák megoldásáról vagy autószerelésről, mindig örömmel állok neki a feladatoknak, és hatékony megoldásokat keresek.</p><p>Hobbim, mint az olvasás, a zenehallgatás,  sportolás és a kirándulás nemcsak személyes kikapcsolódást jelentenek, hanem segítenek abban is, hogy új perspektívákat találjak a problémák kezelésére.</p>",
         "forthInfoTitle": "4. Sport",
-        "forthInfoContent": "<p>Az fitness és a testépítés mindig is ámulattal töltött el. Tinédzserként lelkesen jártam az edzőterembe, bár a munka világába lépve már kevésbé tudok időt szakítani a rendszeres edzésekre. Terveim között szerepel, hogy újra elkezdjek sportolni.</p><p>Legnagyobb inspirációm Arnold Schwarzenegger.</p>",
+        "forthInfoContent": "<p>A fitness és a testépítés már tinédzser korom óta érdekel. Az évek során egyre inkább felismertem, hogy a rendszeres edzés nemcsak a fizikai egészségemet javítja, hanem segít a mentális frissesség megőrzésében is. Rendszeres otthoni edzésekkel igyekszem karbantartani a testemet, és hosszú távon szeretném a sportot még inkább integrálni a mindennapjaimba.</p><p>A legnagyobb inspirációk: Arnold Schwarzenegger, Jay Cutler, valamint a magyar sportolók, Molnár Péter és Illés Norbert.</p><p> Az ő kitartásuk és kemény munkájuk inspirál, és arra motiválnak, hogy mindig a legjobb formámat hozzam, bármivel is foglalkozom.</p>",
         "fifthInfoTitle": "5. Hivatástudat",
         "fifthInfoContent": "<p>Számíthatsz rá, hogy minden helyzetben megbízhatóan és precízen végzem el a feladataimat.</p><p>Kitartó vagyok az elérni kívánt célokért, miközben könnyen alkalmazkodom az új helyzetekhez és képes vagyok hatékonyan együttműködni másokkal.</p>"
     },
@@ -253,7 +253,9 @@
         "statusMessage": "statusMessagePlaceholder",
         "submitButtonText": "Küldés",
         "successMessage": "Az üzenetet sikeresen elküldtük! ✅",
-        "failMessage": "Az üzenetet nem sikerült elküldeni! ❌"
+        "failMessage": "Az üzenetet nem sikerült elküldeni! ❌",
+        "validationErrorMessage": "A mező kitöltése kötelező!",
+        "emailFormatErrorMessage": "Az email cím formátuma nem megfelelő!"
     },
     "footer": {
         "policy": "Adatkezelési irányelvek",
