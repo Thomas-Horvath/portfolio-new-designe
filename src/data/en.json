@@ -11,7 +11,7 @@
         "name": "Thomas Horvath",
         "profession1": "Full-Stack web developer",
         "profession2": "Database specialist",
-        "subTitle": "Code beauty, create an experience!",
+        "subTitle": "„Code beauty, create an experience!”",
         "buttonText": "Contact me!"
     },
     "about": {
@@ -252,7 +252,9 @@
         "statusMessage": "statusMessagePlaceholder",
         "submitButtonText": "Send",
         "successMessage": "Your message has been successfully sent! ✅",
-        "failMessage": "Failed to send the message! ❌"
+        "failMessage": "Failed to send the message! ❌",
+        "validationErrorMessage": "This field is required!",
+        "emailFormatErrorMessage": "The email format is incorrect!"
     },
     "footer": {
         "policy": "Privacy Policy",

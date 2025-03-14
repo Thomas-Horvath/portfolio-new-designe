@@ -40,7 +40,7 @@ import linuxIcon from './icons/skills_icon/linux.svg';
 import docker from './icons/skills_icon/docker.svg';
 
 //CV
-import CV from "../assets/download/CV_2024.pdf"
+import CV from "../assets/download/2025_CV_new.pdf"
 
 
 

@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 
 import { HashLink } from 'react-router-hash-link';
 import Navbar from '../Navbar/Navbar';
@@ -6,6 +6,7 @@ import LogoLight from '../../assets/img/Logo_Thomas_main_color.svg';
 import { FaBars } from "react-icons/fa6";
 
 import LanguageSelector from '../LanguageSelector/LanguageSelector';
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ const Header = () => {
         <div className="icons">
           <LanguageSelector />
           <div className="icon-container hamburger-btn-open js-hamburger-open-btn" onClick={toggleMenu}>
-         <FaBars />
+            <FaBars />
           </div>
         </div>
       </div>
